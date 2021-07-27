@@ -1,23 +1,21 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt 5" />
-    <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="ctrl alt w" />
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="ctrl alt w" />
   </action>
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
   <action id="ActivateWebToolWindow" />
   <action id="AddRiderItem" />
-  <action id="Adtui.ZoomToActualAction">
-    <keyboard-shortcut first-keystroke="ctrl numpad0" />
-  </action>
-  <action id="Adtui.ZoomToFitAction">
-    <keyboard-shortcut first-keystroke="ctrl divide" />
-  </action>
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt a" />
+  </action>
+  <action id="BuildCurrentProject">
+    <keyboard-shortcut first-keystroke="shift ctrl f7" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="ChangesView.Browse">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="p" />
@@ -34,6 +32,10 @@
     <keyboard-shortcut first-keystroke="ctrl subtract" />
     <keyboard-shortcut first-keystroke="ctrl minus" />
     <keyboard-shortcut first-keystroke="shift alt l" />
+  </action>
+  <action id="CollapseBlock">
+    <keyboard-shortcut first-keystroke="shift ctrl period" />
+    <keyboard-shortcut first-keystroke="ctrl m" second-keystroke="ctrl m" />
   </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="ctrl alt slash" />
@@ -53,18 +55,19 @@
   </action>
   <action id="CompareClipboardWithSelection">
     <keyboard-shortcut first-keystroke="shift alt c" />
-  </action>
-  <action id="CompileDirty">
-    <keyboard-shortcut first-keystroke="f7" />
-    <keyboard-shortcut first-keystroke="shift ctrl b" />
+    <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
   <action id="ContextHelp" />
-  <action id="Debug">
-    <keyboard-shortcut first-keystroke="f5" />
-  </action>
   <action id="Debugger.AddToWatch">
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="ctrl alt a" />
+  </action>
+  <action id="Diff.ShowDiff">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="shift alt d" />
+  </action>
+  <action id="EditBookmark">
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockEndWithSelection" />
@@ -77,12 +80,6 @@
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl down" />
   </action>
-  <action id="EditorToggleColumnMode">
-    <keyboard-shortcut first-keystroke="shift alt insert" />
-    <mouse-shortcut keystroke="shift alt button1" />
-  </action>
-  <action id="EmmetNextEditPoint" />
-  <action id="EmmetPreviousEditPoint" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="ctrl n" />
@@ -93,22 +90,18 @@
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="shift alt a" />
   </action>
-  <action id="GotoBookmark0" />
-  <action id="GotoBookmark9" />
+  <action id="Git.Fetch">
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="f" />
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt f" />
+  </action>
+  <action id="Git.Pull">
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="down" />
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt down" />
+  </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
-  <action id="Graph.ActualSize">
-    <keyboard-shortcut first-keystroke="ctrl divide" />
-  </action>
   <action id="HideActiveWindow" />
-  <action id="Images.Editor.ActualSize">
-    <keyboard-shortcut first-keystroke="ctrl divide" />
-  </action>
-  <action id="Kotlin.RunScratch" />
-  <action id="MakeModule">
-    <keyboard-shortcut first-keystroke="ctrl b" />
-  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -117,22 +110,20 @@
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="shift alt a" />
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="a" />
   </action>
-  <action id="NewProject">
-    <keyboard-shortcut first-keystroke="shift ctrl n" />
-  </action>
-  <action id="NextProjectWindow" />
-  <action id="OpenFile">
-    <keyboard-shortcut first-keystroke="ctrl o" />
-    <keyboard-shortcut first-keystroke="shift ctrl o" />
-  </action>
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
-  <action id="PreviousProjectWindow" />
   <action id="Print" />
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="shift ctrl f1" />
     <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="ReSharperGotoContainingDeclaration" />
+  <action id="ReSharperSelectContainingDeclaration" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl f4" />
@@ -140,18 +131,19 @@
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
+  <action id="RiderNewSolution">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
   <action id="RiderNuGetManagePackagesForCurrentProjectAction">
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="n" />
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="shift alt n" />
   </action>
+  <action id="RiderOnlineHelpAction" />
   <action id="RiderUnitTestFocusSessionAction">
     <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
   <action id="RiderUnitTestQuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
-  </action>
-  <action id="SelectInProjectView">
-    <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
@@ -179,6 +171,11 @@
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt a" />
   </action>
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="up" />
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt up" />
+  </action>
   <action id="Vcs.Show.Local.Changes">
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="c" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt c" />
@@ -203,5 +200,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="ctrl alt 1" />
   </action>
   <action id="context.save" />
+  <action id="hg4idea.QFold" />
   <action id="tasks.switch" />
 </keymap>
