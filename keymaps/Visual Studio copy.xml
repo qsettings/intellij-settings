@@ -1,4 +1,15 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="shift meta z" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+    <keyboard-shortcut first-keystroke="meta z" />
+  </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt 5" />
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="w" />
@@ -69,6 +80,12 @@
   <action id="EditBookmark">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="shift meta z" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="meta z" />
+  </action>
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
@@ -97,6 +114,12 @@
   <action id="Git.Pull">
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="down" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt down" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="f12" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="meta button1" />
   </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift alt t" />
@@ -144,6 +167,10 @@
   </action>
   <action id="RiderUnitTestQuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
+  <action id="SaveDocument">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
