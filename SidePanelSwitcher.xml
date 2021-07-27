@@ -1,0 +1,34 @@
+<application>
+  <component name="SidePanelSwitcher">
+    <option name="lastShownToolWindows">
+      <map>
+        <entry key="bottom">
+          <value>
+            <list>
+              <option value="Unit Tests" />
+            </list>
+          </value>
+        </entry>
+        <entry key="left">
+          <value>
+            <list>
+              <option value="Project" />
+            </list>
+          </value>
+        </entry>
+        <entry key="right">
+          <value>
+            <list>
+              <option value="Commit" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastFocusedToolWindow">
+      <map>
+        <entry key="bottom" value="Version Control" />
+      </map>
+    </option>
+  </component>
+</application>

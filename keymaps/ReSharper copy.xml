@@ -1,0 +1,50 @@
+<keymap version="1" name="ReSharper copy" parent="ReSharper">
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl colon" />
+    <keyboard-shortcut first-keystroke="ctrl alt slash" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
+    <keyboard-shortcut first-keystroke="ctrl colon" />
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+  </action>
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="Console.TableResult.SelectRow" />
+  <action id="EditorStartNewLineBefore" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="alt back_slash" />
+  </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="shift alt t" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
+  <action id="GotoTest" />
+  <action id="JumpToLastWindow">
+    <keyboard-shortcut first-keystroke="shift space" />
+  </action>
+  <action id="ServiceView.ShowServices" />
+  <action id="SetShortcutAction" />
+  <action id="ShowIntentionActions" />
+  <action id="ShowSettings">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="Vcs.UpdateProject" />
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="alt f9" />
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id="tasks.switch" />
+</keymap>
