@@ -5,7 +5,7 @@
         <entry key="bottom">
           <value>
             <list>
-              <option value="TODO" />
+              <option value="Unit Tests" />
             </list>
           </value>
         </entry>
@@ -23,6 +23,11 @@
             </list>
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="lastFocusedToolWindow">
+      <map>
+        <entry key="right" value="Commit" />
       </map>
     </option>
   </component>

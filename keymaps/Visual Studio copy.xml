@@ -165,7 +165,6 @@
   <action id="TabShiftActions.ShiftRight">
     <keyboard-shortcut first-keystroke="shift alt close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl close_bracket" second-keystroke="ctrl close_bracket" />
   </action>
   <action id="Tfvc.Annotate">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="a" />
