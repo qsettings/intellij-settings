@@ -57,6 +57,7 @@
     <keyboard-shortcut first-keystroke="shift alt c" />
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
+  <action id="ContextHelp" />
   <action id="Debugger.AddToWatch">
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="ctrl alt a" />
