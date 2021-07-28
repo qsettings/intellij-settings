@@ -5,8 +5,7 @@
         <entry key="bottom">
           <value>
             <list>
-              <option value="TODO" />
-              <option value="Version Control" />
+              <option value="Debug" />
             </list>
           </value>
         </entry>
