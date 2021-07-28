@@ -5,8 +5,7 @@
         <entry key="bottom">
           <value>
             <list>
-              <option value="Build" />
-              <option value="Version Control" />
+              <option value="Debug" />
             </list>
           </value>
         </entry>
@@ -24,11 +23,6 @@
             </list>
           </value>
         </entry>
-      </map>
-    </option>
-    <option name="lastFocusedToolWindow">
-      <map>
-        <entry key="bottom" value="Build" />
       </map>
     </option>
   </component>
