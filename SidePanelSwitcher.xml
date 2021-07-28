@@ -5,14 +5,15 @@
         <entry key="bottom">
           <value>
             <list>
-              <option value="Python Packages" />
+              <option value="TODO" />
+              <option value="Version Control" />
             </list>
           </value>
         </entry>
         <entry key="left">
           <value>
             <list>
-              <option value="Structure" />
+              <option value="Project" />
             </list>
           </value>
         </entry>
