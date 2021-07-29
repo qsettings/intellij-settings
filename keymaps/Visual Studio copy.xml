@@ -1,4 +1,8 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="ctrl x" />
     <keyboard-shortcut first-keystroke="shift delete" />
@@ -99,6 +103,10 @@
   </action>
   <action id="EditBookmark">
     <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="meta x" />
