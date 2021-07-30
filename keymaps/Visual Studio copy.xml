@@ -64,6 +64,7 @@
   </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="ctrl alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt slash" />
   </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
@@ -71,6 +72,7 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
     <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="meta slash" />
   </action>
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="c" />
@@ -222,6 +224,11 @@
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="ReSharperGotoContainingDeclaration" />
+  <action id="ReSharperNavigateTo">
+    <keyboard-shortcut first-keystroke="alt back_quote" />
+    <keyboard-shortcut first-keystroke="alt dead_grave" />
+    <keyboard-shortcut first-keystroke="meta alt back_quote" />
+  </action>
   <action id="ReSharperSelectContainingDeclaration" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
