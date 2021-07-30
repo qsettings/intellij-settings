@@ -86,7 +86,6 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="alt f5" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl u" />
-    <keyboard-shortcut first-keystroke="f5" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="u" />
   </action>
   <action id="DebugClass">
