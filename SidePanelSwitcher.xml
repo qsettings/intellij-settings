@@ -1,0 +1,15 @@
+<application>
+  <component name="SidePanelSwitcher">
+    <option name="lastShownToolWindows">
+      <map>
+        <entry key="left">
+          <value>
+            <list>
+              <option value="Project" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
