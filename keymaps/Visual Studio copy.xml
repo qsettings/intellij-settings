@@ -1,4 +1,8 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
   <action id="$Cut">
     <keyboard-shortcut first-keystroke="ctrl x" />
     <keyboard-shortcut first-keystroke="shift delete" />
@@ -49,6 +53,10 @@
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt u" />
   </action>
   <action id="CloseActiveTab" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
   <action id="CollapseAll">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
     <keyboard-shortcut first-keystroke="ctrl minus" />
@@ -60,6 +68,7 @@
   </action>
   <action id="CommentByBlockComment">
     <keyboard-shortcut first-keystroke="ctrl alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt slash" />
   </action>
   <action id="CommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="c" />
@@ -67,6 +76,7 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
     <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="meta slash" />
   </action>
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="c" />
@@ -82,7 +92,6 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="alt f5" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl u" />
-    <keyboard-shortcut first-keystroke="f5" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="u" />
   </action>
   <action id="DebugClass">
@@ -99,6 +108,10 @@
   </action>
   <action id="EditBookmark">
     <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="meta c" />
+    <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="meta x" />
@@ -173,6 +186,14 @@
     <mouse-shortcut keystroke="button2" />
     <mouse-shortcut keystroke="meta button1" />
   </action>
+  <action id="GotoImplementation">
+    <keyboard-shortcut first-keystroke="alt end" />
+    <keyboard-shortcut first-keystroke="meta alt down" />
+  </action>
+  <action id="GotoSuperMethod">
+    <keyboard-shortcut first-keystroke="alt home" />
+    <keyboard-shortcut first-keystroke="meta alt up" />
+  </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift alt t" />
   </action>
@@ -186,8 +207,23 @@
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="shift alt a" />
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="a" />
   </action>
+  <action id="NewScratchFile">
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="ctrl o" />
+    <keyboard-shortcut first-keystroke="meta o" />
+  </action>
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
   <action id="Print" />
   <action id="QuickJavaDoc">
@@ -195,6 +231,11 @@
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="ReSharperGotoContainingDeclaration" />
+  <action id="ReSharperNavigateTo">
+    <keyboard-shortcut first-keystroke="alt back_quote" />
+    <keyboard-shortcut first-keystroke="alt dead_grave" />
+    <keyboard-shortcut first-keystroke="meta alt back_quote" />
+  </action>
   <action id="ReSharperSelectContainingDeclaration" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
@@ -203,6 +244,7 @@
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl f4" />
+    <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl h" />
@@ -262,6 +304,16 @@
   <action id="TabShiftActions.ShiftRight">
     <keyboard-shortcut first-keystroke="shift alt close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
+  <action id="Terminal.CopySelectedText">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+    <keyboard-shortcut first-keystroke="ctrl insert" />
+    <keyboard-shortcut first-keystroke="meta c" />
+  </action>
+  <action id="Terminal.Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="shift insert" />
+    <keyboard-shortcut first-keystroke="meta v" />
   </action>
   <action id="Tfvc.Annotate">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="a" />
