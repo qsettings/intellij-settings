@@ -5,7 +5,7 @@
         <entry key="bottom">
           <value>
             <list>
-              <option value="Version Control" />
+              <option value="Debug" />
             </list>
           </value>
         </entry>
@@ -27,7 +27,6 @@
     </option>
     <option name="lastFocusedToolWindow">
       <map>
-        <entry key="bottom" value="Version Control" />
         <entry key="left" value="Project" />
       </map>
     </option>
