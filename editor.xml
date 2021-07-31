@@ -20,7 +20,7 @@
     <option name="STRIP_TRAILING_SPACES" value="None" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+    <option name="lastViewedProviderKeyId" value="rust.type.hints" />
   </component>
   <component name="TodoConfiguration">
     <pattern case-sensitive="true" pattern="\bNotImplementedException\b" />
