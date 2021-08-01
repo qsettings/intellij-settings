@@ -21,7 +21,6 @@
   </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
-    <keyboard-shortcut first-keystroke="alt back_space" />
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
   <action id="ActivateDebugToolWindow">
@@ -37,6 +36,12 @@
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt a" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="meta minus" />
   </action>
   <action id="BuildCurrentProject">
     <keyboard-shortcut first-keystroke="shift ctrl f7" />
@@ -129,6 +134,13 @@
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="ctrl back_space" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
     <keyboard-shortcut first-keystroke="meta right" />
@@ -166,6 +178,12 @@
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
     <keyboard-shortcut first-keystroke="shift meta f" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="shift meta minus" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt insert" />
