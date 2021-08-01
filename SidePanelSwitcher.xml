@@ -12,14 +12,14 @@
         <entry key="left">
           <value>
             <list>
-              <option value="Project" />
+              <option value="Commit" />
             </list>
           </value>
         </entry>
         <entry key="right">
           <value>
             <list>
-              <option value="Commit" />
+              <option value="Database" />
             </list>
           </value>
         </entry>

@@ -28,6 +28,7 @@
     <keyboard-shortcut first-keystroke="alt 5" />
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="ctrl alt w" />
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
@@ -210,6 +211,7 @@
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="NextProjectWindow" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="meta alt right" />
@@ -222,6 +224,7 @@
     <keyboard-shortcut first-keystroke="ctrl p" />
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="PreviousProjectWindow" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="meta alt left" />
