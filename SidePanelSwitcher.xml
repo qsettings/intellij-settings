@@ -5,8 +5,7 @@
         <entry key="bottom">
           <value>
             <list>
-              <option value="Regex Tester" />
-              <option value="Version Control" />
+              <option value="Run" />
             </list>
           </value>
         </entry>
