@@ -210,6 +210,7 @@
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="NextProjectWindow" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="meta alt right" />
@@ -222,6 +223,7 @@
     <keyboard-shortcut first-keystroke="ctrl p" />
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="PreviousProjectWindow" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="meta alt left" />

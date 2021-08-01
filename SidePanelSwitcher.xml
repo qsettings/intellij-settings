@@ -5,7 +5,7 @@
         <entry key="bottom">
           <value>
             <list>
-              <option value="Run" />
+              <option value="Unit Tests" />
             </list>
           </value>
         </entry>
@@ -19,7 +19,7 @@
         <entry key="right">
           <value>
             <list>
-              <option value="Commit" />
+              <option value="Database" />
             </list>
           </value>
         </entry>
