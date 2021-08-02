@@ -48,6 +48,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl f7" />
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
+  <action id="BuildProfile">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="BuildProject">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="ChangesView.Browse">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt p" />
