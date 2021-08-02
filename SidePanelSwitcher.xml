@@ -5,7 +5,7 @@
         <entry key="bottom">
           <value>
             <list>
-              <option value="Run" />
+              <option value="Debug" />
             </list>
           </value>
         </entry>
@@ -19,7 +19,7 @@
         <entry key="right">
           <value>
             <list>
-              <option value="Commit" />
+              <option value="Documentation" />
             </list>
           </value>
         </entry>
@@ -27,7 +27,6 @@
     </option>
     <option name="lastFocusedToolWindow">
       <map>
-        <entry key="bottom" value="Run" />
         <entry key="right" value="Commit" />
       </map>
     </option>
