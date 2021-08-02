@@ -27,6 +27,7 @@
     <keyboard-shortcut first-keystroke="alt 5" />
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="ctrl alt w" />
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
@@ -228,6 +229,7 @@
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="meta t" />
   </action>
+  <action id="NextProjectWindow" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="meta alt right" />
@@ -238,7 +240,9 @@
   </action>
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="ctrl p" />
+    <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="PreviousProjectWindow" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="meta alt left" />
@@ -318,10 +322,12 @@
   <action id="TabShiftActions.ShiftLeft">
     <keyboard-shortcut first-keystroke="shift alt open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+    <keyboard-shortcut first-keystroke="meta open_bracket" />
   </action>
   <action id="TabShiftActions.ShiftRight">
     <keyboard-shortcut first-keystroke="shift alt close_bracket" />
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+    <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
   <action id="Terminal.CopySelectedText">
     <keyboard-shortcut first-keystroke="ctrl c" />
