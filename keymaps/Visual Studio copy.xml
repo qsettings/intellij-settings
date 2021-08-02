@@ -224,6 +224,7 @@
   </action>
   <action id="HelpTopics" />
   <action id="HideActiveWindow" />
+  <action id="IntroduceConstant" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="alt insert" />
