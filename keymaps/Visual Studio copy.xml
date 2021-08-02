@@ -165,6 +165,22 @@
     <keyboard-shortcut first-keystroke="shift meta left" />
   </action>
   <action id="EditorMatchBrace" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl up" />
@@ -238,7 +254,6 @@
   </action>
   <action id="NextProjectWindow" />
   <action id="NextTab">
-    <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
   <action id="OpenFile">
@@ -251,7 +266,6 @@
   </action>
   <action id="PreviousProjectWindow" />
   <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
   <action id="Print" />
