@@ -32,6 +32,11 @@
                       <FeaturePluginData displayName="Makefile Application" pluginName="Makefile" pluginId="com.intellij.clion-makefile" bundled="true" />
                     </value>
                   </entry>
+                  <entry key="CLion_CoreDump">
+                    <value>
+                      <FeaturePluginData displayName="Core Dump Debug" pluginName="CLion IDE" pluginId="com.intellij.clion" bundled="true" />
+                    </value>
+                  </entry>
                   <entry key="CLion_Remote">
                     <value>
                       <FeaturePluginData displayName="GDB Remote Debug" pluginName="CLion IDE" pluginId="com.intellij.clion" bundled="true" />
