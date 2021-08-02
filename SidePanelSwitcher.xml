@@ -19,7 +19,7 @@
         <entry key="right">
           <value>
             <list>
-              <option value="Documentation" />
+              <option value="Commit" />
             </list>
           </value>
         </entry>
@@ -28,6 +28,7 @@
     <option name="lastFocusedToolWindow">
       <map>
         <entry key="bottom" value="Run" />
+        <entry key="right" value="Commit" />
       </map>
     </option>
   </component>
