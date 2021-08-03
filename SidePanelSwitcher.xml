@@ -19,15 +19,10 @@
         <entry key="right">
           <value>
             <list>
-              <option value="Documentation" />
+              <option value="Errors In Solution" />
             </list>
           </value>
         </entry>
-      </map>
-    </option>
-    <option name="lastFocusedToolWindow">
-      <map>
-        <entry key="right" value="Commit" />
       </map>
     </option>
   </component>
