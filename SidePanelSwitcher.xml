@@ -5,7 +5,7 @@
         <entry key="bottom">
           <value>
             <list>
-              <option value="Build" />
+              <option value="Services" />
             </list>
           </value>
         </entry>
@@ -19,7 +19,7 @@
         <entry key="right">
           <value>
             <list>
-              <option value="Errors In Solution" />
+              <option value="Project" />
             </list>
           </value>
         </entry>
