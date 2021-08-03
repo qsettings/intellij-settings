@@ -221,6 +221,11 @@
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="shift alt a" />
   </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="b" />
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt b" />
+  </action>
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="f" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt f" />
