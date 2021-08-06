@@ -21,7 +21,6 @@
   </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
-    <keyboard-shortcut first-keystroke="alt back_space" />
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
   <action id="ActivateDebugToolWindow">
@@ -33,14 +32,30 @@
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+    <keyboard-shortcut first-keystroke="ctrl alt t" />
+  </action>
   <action id="ActivateWebToolWindow" />
   <action id="AddRiderItem" />
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt a" />
   </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
   <action id="BuildCurrentProject">
     <keyboard-shortcut first-keystroke="shift ctrl f7" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="BuildProfile">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="BuildProject">
     <keyboard-shortcut first-keystroke="ctrl b" />
   </action>
   <action id="ChangesView.Browse">
@@ -130,6 +145,13 @@
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
+  <action id="EditorDeleteToLineStart">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="ctrl back_space" />
+    <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
     <keyboard-shortcut first-keystroke="meta right" />
@@ -147,6 +169,22 @@
     <keyboard-shortcut first-keystroke="shift meta left" />
   </action>
   <action id="EditorMatchBrace" />
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl up" />
@@ -168,10 +206,25 @@
     <keyboard-shortcut first-keystroke="shift ctrl f" />
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
+  <action id="ForceRunToCursor">
+    <keyboard-shortcut first-keystroke="ctrl alt f9" />
+    <keyboard-shortcut first-keystroke="shift ctrl f10" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="shift meta minus" />
+  </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="shift alt a" />
+  </action>
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="b" />
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt b" />
   </action>
   <action id="Git.Fetch">
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="f" />
@@ -200,6 +253,7 @@
   </action>
   <action id="HelpTopics" />
   <action id="HideActiveWindow" />
+  <action id="IntroduceConstant" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -213,7 +267,6 @@
   </action>
   <action id="NextProjectWindow" />
   <action id="NextTab">
-    <keyboard-shortcut first-keystroke="alt right" />
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
   <action id="OpenFile">
@@ -226,7 +279,6 @@
   </action>
   <action id="PreviousProjectWindow" />
   <action id="PreviousTab">
-    <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
   <action id="Print" />
