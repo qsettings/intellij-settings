@@ -5,7 +5,7 @@
         <entry key="bottom">
           <value>
             <list>
-              <option value="Python Console" />
+              <option value="Services" />
             </list>
           </value>
         </entry>
@@ -23,6 +23,11 @@
             </list>
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="lastFocusedToolWindow">
+      <map>
+        <entry key="right" value="Commit" />
       </map>
     </option>
   </component>
