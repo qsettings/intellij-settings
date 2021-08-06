@@ -254,6 +254,10 @@
   <action id="HelpTopics" />
   <action id="HideActiveWindow" />
   <action id="IntroduceConstant" />
+  <action id="JupyterDebugAction">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -268,6 +272,14 @@
   <action id="NextProjectWindow" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="NotebookRunAllAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
+    <keyboard-shortcut first-keystroke="shift meta alt enter" />
+  </action>
+  <action id="NotebookRunCellAction">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="meta enter" />
   </action>
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="ctrl o" />
