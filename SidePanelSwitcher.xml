@@ -5,14 +5,14 @@
         <entry key="bottom">
           <value>
             <list>
-              <option value="Build" />
+              <option value="Debug" />
             </list>
           </value>
         </entry>
         <entry key="left">
           <value>
             <list>
-              <option value="Commit" />
+              <option value="Project" />
             </list>
           </value>
         </entry>
@@ -23,6 +23,11 @@
             </list>
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="lastFocusedToolWindow">
+      <map>
+        <entry key="right" value="Commit" />
       </map>
     </option>
   </component>
