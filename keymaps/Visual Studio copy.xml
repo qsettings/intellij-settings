@@ -9,6 +9,10 @@
     <keyboard-shortcut first-keystroke="ctrl l" />
     <keyboard-shortcut first-keystroke="meta x" />
   </action>
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta v" />
@@ -136,6 +140,9 @@
   </action>
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="meta x" />
+  </action>
+  <action id="Editor Delete">
+    <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="meta v" />
