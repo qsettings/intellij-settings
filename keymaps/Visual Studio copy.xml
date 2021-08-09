@@ -295,6 +295,9 @@
     <keyboard-shortcut first-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
+  <action id="OverrideFileTypeAction">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="ctrl p" />
     <keyboard-shortcut first-keystroke="meta p" />
