@@ -1,6 +1,7 @@
 <application>
   <component name="GeneralSettings">
     <option name="confirmExit" value="false" />
+    <option name="processCloseConfirmation" value="TERMINATE" />
   </component>
   <component name="Registry">
     <entry key="rdclient.asyncActions" value="false" />
@@ -14,6 +15,6 @@
     <entry key="ide.tooltip.showAllSeverities" value="true" />
     <entry key="ide.tree.expand.navigatable.on.double.click.disabled" value="true" />
     <entry key="vcs.enable.add.ignored.directories.to.exclude" value="false" />
-    <entry key="rider.enable.designer.winForms" value="true" />
+    <entry key="debugger.watches.in.variables" value="false" />
   </component>
 </application>
