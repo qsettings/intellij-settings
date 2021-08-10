@@ -45,6 +45,11 @@
     <keyboard-shortcut first-keystroke="ctrl alt 1" />
     <keyboard-shortcut first-keystroke="ctrl alt t" />
   </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt s" />
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="s" />
+  </action>
   <action id="ActivateWebToolWindow" />
   <action id="AddRiderItem" />
   <action id="Annotate">
@@ -153,10 +158,19 @@
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
+  <action id="EditorCreateRectangularSelection">
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
@@ -280,6 +294,7 @@
   </action>
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="meta t" />
+    <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="NextProjectWindow" />
   <action id="NextTab">
@@ -296,6 +311,9 @@
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="meta o" />
+  </action>
+  <action id="OverrideFileTypeAction">
+    <keyboard-shortcut first-keystroke="alt l" />
   </action>
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="ctrl p" />
@@ -413,10 +431,6 @@
   <action id="Vcs.Show.Local.Changes">
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="c" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt c" />
-  </action>
-  <action id="Vcs.Show.Shelf">
-    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt s" />
-    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="s" />
   </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="h" />
