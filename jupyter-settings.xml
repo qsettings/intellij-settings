@@ -4,6 +4,16 @@
       <list>
         <JupyterConnectionParameters>
           <option name="authType" value="notebook" />
+          <option name="token" value="4faa8a9b6ca2cf98b2dac438c682bedfa3f12edbf7b3c459" />
+          <option name="urlString" value="http://127.0.0.1:8888/" />
+          <authParams2>
+            <map>
+              <entry key="token" value="4faa8a9b6ca2cf98b2dac438c682bedfa3f12edbf7b3c459" />
+            </map>
+          </authParams2>
+        </JupyterConnectionParameters>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
           <option name="urlString" value="http://127.0.0.1:8889" />
           <authParams2>
             <map />
@@ -23,7 +33,14 @@
         <entry key="$USER_HOME$/source/repos/python/python_lab/.idea/python_lab.iml">
           <value>
             <JupyterConnectionParameters>
-              <option name="managed" value="true" />
+              <option name="authType" value="notebook" />
+              <option name="token" value="4faa8a9b6ca2cf98b2dac438c682bedfa3f12edbf7b3c459" />
+              <option name="urlString" value="http://127.0.0.1:8888/" />
+              <authParams2>
+                <map>
+                  <entry key="token" value="4faa8a9b6ca2cf98b2dac438c682bedfa3f12edbf7b3c459" />
+                </map>
+              </authParams2>
             </JupyterConnectionParameters>
           </value>
         </entry>
