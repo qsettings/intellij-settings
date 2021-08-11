@@ -4,7 +4,14 @@
       <list>
         <JupyterConnectionParameters>
           <option name="authType" value="notebook" />
-          <option name="urlString" value="http://localhost:8888" />
+          <option name="urlString" value="http://127.0.0.1:8889" />
+          <authParams2>
+            <map />
+          </authParams2>
+        </JupyterConnectionParameters>
+        <JupyterConnectionParameters>
+          <option name="authType" value="notebook" />
+          <option name="urlString" value="http://localhost:8889" />
           <authParams2>
             <map />
           </authParams2>
