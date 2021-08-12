@@ -9,6 +9,10 @@
     <keyboard-shortcut first-keystroke="ctrl l" />
     <keyboard-shortcut first-keystroke="meta x" />
   </action>
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta v" />
@@ -29,12 +33,22 @@
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="ctrl alt w" />
     <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="alt 3" />
+    <keyboard-shortcut first-keystroke="ctrl alt f12" />
+    <keyboard-shortcut first-keystroke="meta alt f12" />
+  </action>
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt 1" />
     <keyboard-shortcut first-keystroke="ctrl alt t" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt s" />
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="s" />
   </action>
   <action id="ActivateWebToolWindow" />
   <action id="AddRiderItem" />
@@ -132,6 +146,9 @@
   <action id="Editor Cut">
     <keyboard-shortcut first-keystroke="meta x" />
   </action>
+  <action id="Editor Delete">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
   <action id="Editor Paste">
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
@@ -141,10 +158,19 @@
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
   <action id="EditorCodeBlockEnd" />
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
+  <action id="EditorCreateRectangularSelection">
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
@@ -254,6 +280,10 @@
   <action id="HelpTopics" />
   <action id="HideActiveWindow" />
   <action id="IntroduceConstant" />
+  <action id="JupyterDebugAction">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -264,14 +294,26 @@
   </action>
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="meta t" />
+    <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="NextProjectWindow" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
+  <action id="NotebookRunAllAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
+    <keyboard-shortcut first-keystroke="shift meta alt enter" />
+  </action>
+  <action id="NotebookRunCellAction">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="OpenFile">
     <keyboard-shortcut first-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="meta o" />
+  </action>
+  <action id="OverrideFileTypeAction">
+    <keyboard-shortcut first-keystroke="alt l" />
   </action>
   <action id="PinActiveTab">
     <keyboard-shortcut first-keystroke="ctrl p" />
@@ -287,6 +329,10 @@
     <keyboard-shortcut first-keystroke="f1" />
   </action>
   <action id="ReSharperGotoContainingDeclaration" />
+  <action id="ReSharperGotoImplementation">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+    <keyboard-shortcut first-keystroke="meta f12" />
+  </action>
   <action id="ReSharperNavigateTo">
     <keyboard-shortcut first-keystroke="alt back_quote" />
     <keyboard-shortcut first-keystroke="alt dead_grave" />
@@ -377,6 +423,7 @@
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt a" />
   </action>
+  <action id="UpdateRunningApplication" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="up" />
@@ -385,10 +432,6 @@
   <action id="Vcs.Show.Local.Changes">
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="c" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt c" />
-  </action>
-  <action id="Vcs.Show.Shelf">
-    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt s" />
-    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="s" />
   </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="h" />
