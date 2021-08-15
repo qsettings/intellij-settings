@@ -1,8 +1,9 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File '…\src\fix_pipes.rs'" />
-    <option name="defaultScopeName" value="File '…\src\fix_pipes.rs'" />
-    <option name="SEARCH_SCOPE" value="File '…\src\fix_pipes.rs'" />
-    <option name="FILE_MASK" value="*.cs" />
+    <option name="customScope" value="Solution" />
+    <option name="defaultScopeName" value="Solution" />
+    <option name="SEARCH_SCOPE" value="Solution" />
+    <mask>*.cs</mask>
+    <mask>*.config</mask>
   </component>
 </application>

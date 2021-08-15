@@ -388,7 +388,6 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="w" />
   </action>
   <action id="ShowErrorDescription">
-    <keyboard-shortcut first-keystroke="alt t" />
     <keyboard-shortcut first-keystroke="ctrl f1" />
   </action>
   <action id="ShowIntentionActions">
