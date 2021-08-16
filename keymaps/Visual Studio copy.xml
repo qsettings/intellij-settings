@@ -274,6 +274,7 @@
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="alt end" />
     <keyboard-shortcut first-keystroke="meta alt down" />
+    <keyboard-shortcut first-keystroke="ctrl f12" />
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="alt home" />
@@ -392,7 +393,6 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="w" />
   </action>
   <action id="ShowErrorDescription">
-    <keyboard-shortcut first-keystroke="alt t" />
     <keyboard-shortcut first-keystroke="ctrl f1" />
   </action>
   <action id="ShowIntentionActions">
