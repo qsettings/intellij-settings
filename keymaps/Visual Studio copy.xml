@@ -171,6 +171,11 @@
   <action id="EditorCreateRectangularSelection">
     <mouse-shortcut keystroke="shift alt button1" />
   </action>
+  <action id="EditorCreateRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="alt button1" />
+    <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
