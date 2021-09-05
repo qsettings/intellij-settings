@@ -23,6 +23,10 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+    <keyboard-shortcut first-keystroke="meta a" />
+  </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl z" />
     <keyboard-shortcut first-keystroke="meta z" />
@@ -108,6 +112,9 @@
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
+  <action id="Compare.LastVersion">
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt d" />
+  </action>
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="c" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt c" />
@@ -155,9 +162,17 @@
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="shift meta z" />
   </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="meta a" />
+  </action>
   <action id="Editor Undo">
     <keyboard-shortcut first-keystroke="meta z" />
   </action>
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="shift meta alt button1" />
+    <mouse-shortcut keystroke="shift control alt button1" />
+  </action>
+  <action id="EditorAddRectangularSelectionOnMouseDrag" />
   <action id="EditorCloneCaretAbove">
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
@@ -171,12 +186,21 @@
   <action id="EditorCreateRectangularSelection">
     <mouse-shortcut keystroke="shift alt button1" />
   </action>
+  <action id="EditorCreateRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="alt button1" />
+    <mouse-shortcut keystroke="button2" />
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
   <action id="EditorDeleteToWordStart">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
     <keyboard-shortcut first-keystroke="alt back_space" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
@@ -232,6 +256,13 @@
     <keyboard-shortcut first-keystroke="shift ctrl f" />
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="f3" />
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+    <keyboard-shortcut first-keystroke="ctrl alt page_down" />
+    <keyboard-shortcut first-keystroke="shift alt slash" />
+    <keyboard-shortcut first-keystroke="meta g" />
+  </action>
   <action id="ForceRunToCursor">
     <keyboard-shortcut first-keystroke="ctrl alt f9" />
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
@@ -269,6 +300,10 @@
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="alt end" />
     <keyboard-shortcut first-keystroke="meta alt down" />
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+    <keyboard-shortcut first-keystroke="meta f12" />
+    <mouse-shortcut keystroke="meta alt button1" />
+    <mouse-shortcut keystroke="control alt button1" />
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="alt home" />
@@ -387,7 +422,6 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="w" />
   </action>
   <action id="ShowErrorDescription">
-    <keyboard-shortcut first-keystroke="alt t" />
     <keyboard-shortcut first-keystroke="ctrl f1" />
   </action>
   <action id="ShowIntentionActions">
