@@ -19,14 +19,7 @@
         <entry key="$USER_HOME$/source/repos/python/python_lab/.idea/python_lab.iml">
           <value>
             <JupyterConnectionParameters>
-              <option name="authType" value="notebook" />
-              <option name="token" value="692ca3cf747b534280f633069fbdd0f2cd3ef44b9e3c800b" />
-              <option name="urlString" value="http://127.0.0.1:8888/" />
-              <authParams2>
-                <map>
-                  <entry key="token" value="692ca3cf747b534280f633069fbdd0f2cd3ef44b9e3c800b" />
-                </map>
-              </authParams2>
+              <option name="managed" value="true" />
             </JupyterConnectionParameters>
           </value>
         </entry>
