@@ -4,6 +4,7 @@
       <list>
         <option value="$USER_HOME$/source/repos/rust/open_source" />
         <option value="$USER_HOME$/source/repos/BOOKS_SOURCES/rust" />
+        <option value="$USER_HOME$/source/rust" />
       </list>
     </option>
   </component>
