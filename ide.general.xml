@@ -17,5 +17,7 @@
     <entry key="vcs.enable.add.ignored.directories.to.exclude" value="false" />
     <entry key="debugger.watches.in.variables" value="false" />
     <entry key="rider.enable.designer.winForms" value="true" />
+    <entry key="python.scientific.show_help_window" value="false" />
+    <entry key="python.scientific.always_use_sci_view" value="true" />
   </component>
 </application>
