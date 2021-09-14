@@ -86,6 +86,9 @@
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="u" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt u" />
   </action>
+  <action id="ChangesView.Shelve">
+    <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
@@ -419,6 +422,10 @@
   </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift alt l" />
+  </action>
+  <action id="ShelveChanges.UnshelveWithDialog">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+    <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
