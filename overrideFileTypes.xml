@@ -1,6 +1,5 @@
 <application>
   <component name="OverrideFileTypeManager">
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.txt" value="Log" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.log" value="Log" />
+    <file url="file://$USER_HOME$/source/Beeline/b2c/Source/QA.Beeline.Client.WebApp.Tests/Models/MobileTariffs/TariffConstructor/TariffConstructorFixture.SmokyConstructorInfo.snapshot.txt" value="JSON" />
   </component>
 </application>
