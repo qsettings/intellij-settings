@@ -9,5 +9,6 @@
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
     <pattern pattern="\bnote\b.*" />
+    <pattern pattern="\bnotImplementederror\b.*" />
   </component>
 </application>
