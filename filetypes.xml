@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="8-queens" type="AUTO_DETECTED" />
       <mapping ext="out" type="PLAIN_TEXT" />
+      <mapping ext="prof" type="PLAIN_TEXT" />
       <mapping ext="pdb" type="PLAIN_TEXT" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
