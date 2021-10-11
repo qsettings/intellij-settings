@@ -14,5 +14,11 @@
     <pattern pattern="\bnote\b.*" />
     <pattern pattern="\bnotImplementederror\b.*" />
     <pattern pattern="\bbug\b.*" />
+    <filter name="todo">
+      <pattern index="1" />
+      <pattern index="3" />
+      <pattern index="0" />
+      <pattern index="4" />
+    </filter>
   </component>
 </application>
