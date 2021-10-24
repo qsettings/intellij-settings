@@ -2,6 +2,9 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="8-queens" type="AUTO_DETECTED" />
+      <mapping ext="space.kts" type="Kotlin" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="prof" type="PLAIN_TEXT" />
       <mapping ext="pdb" type="PLAIN_TEXT" />
@@ -10,9 +13,6 @@
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="template" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
-      <mapping ext="gradle.kts" type="Kotlin" />
-      <mapping ext="main.kts" type="Kotlin" />
-      <mapping ext="space.kts" type="Kotlin" />
     </extensionMap>
   </component>
 </application>
