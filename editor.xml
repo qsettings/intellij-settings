@@ -1,4 +1,7 @@
 <application>
+  <component name="CodeInsightSettings">
+    <option name="INSERT_BRACE_ON_ENTER" value="false" />
+  </component>
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="11" />
     <option name="FONT_REGULAR_SUB_FAMILY" value="Regular" />
@@ -9,16 +12,16 @@
     <option name="lastViewedProviderKeyId" value="chain-method.hints" />
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
-    <pattern pattern="\bnote\b.*" />
-    <pattern pattern="\bnotImplementederror\b.*" />
-    <pattern pattern="\bbug\b.*" />
+    <pattern case-sensitive="true" pattern="\bNotImplementedException\b" />
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;8362)(\W|$)(.*)" />
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
     <filter name="todo">
-      <pattern index="1" />
-      <pattern index="3" />
-      <pattern index="0" />
-      <pattern index="4" />
+      <pattern index="-1" />
+      <pattern index="-1" />
+      <pattern index="-1" />
+      <pattern index="-1" />
     </filter>
   </component>
 </application>
