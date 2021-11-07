@@ -256,6 +256,12 @@
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl down" />
   </action>
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl w" />
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta w" />
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="w" />
+  </action>
   <action id="ExternalJavaDoc" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
