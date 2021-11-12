@@ -17,11 +17,6 @@
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;8362)(\W|$)(.*)" />
     <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
     <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
-    <filter name="todo">
-      <pattern index="-1" />
-      <pattern index="-1" />
-      <pattern index="-1" />
-      <pattern index="-1" />
-    </filter>
+    <filter name="todo" />
   </component>
 </application>
