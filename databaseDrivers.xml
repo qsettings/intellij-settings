@@ -1,6 +1,6 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
-    <driver id="sqlserver.ms" dialect="AZURE">
+    <driver id="sqlserver.ms">
       <artifact id="SQL Server" name="SQL Server" channel="fixed" rolling="false" use="true" version="9.4.0" />
     </driver>
     <driver id="sqlserver.jtds">
