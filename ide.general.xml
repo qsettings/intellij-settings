@@ -17,5 +17,6 @@
     <entry key="vcs.enable.add.ignored.directories.to.exclude" value="false" />
     <entry key="debugger.watches.in.variables" value="false" />
     <entry key="rider.enable.designer.winForms" value="true" />
+    <entry key="clang.parameter.info" value="true" />
   </component>
 </application>
