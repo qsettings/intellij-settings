@@ -9,7 +9,7 @@
           <option name="userId" value="f629839a-3cce-4b7f-a20a-7ca896d1bbcb" />
           <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;d935f920-5f25-40b1-8fd1-04cf31b194a1&quot;,&quot;name&quot;:&quot;BeeDev&quot;,&quot;url&quot;:&quot;https://ms-prmdvlp001.bee.vimpelcom.ru/tfs/_apis/projectCollections/d935f920-5f25-40b1-8fd1-04cf31b194a1&quot;}" />
           <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;7ca83e88-fbfe-4459-a631-eed4da6ed35d&quot;,&quot;name&quot;:&quot;Beeline.ru&quot;,&quot;revision&quot;:44,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://ms-prmdvlp001.bee.vimpelcom.ru/tfs/beedev/_apis/projects/7ca83e88-fbfe-4459-a631-eed4da6ed35d&quot;}" />
-          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;963958dd-3870-416b-b5eb-b3c5e6842c49&quot;,&quot;name&quot;:&quot;b2c&quot;,&quot;remoteUrl&quot;:&quot;https://tfs.beelinetst.ru/tfs/BeeDev/Beeline.ru/_git/b2c&quot;,&quot;url&quot;:&quot;https://ms-prmdvlp001.bee.vimpelcom.ru/tfs/beedev/_apis/git/repositories/963958dd-3870-416b-b5eb-b3c5e6842c49&quot;,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;7ca83e88-fbfe-4459-a631-eed4da6ed35d&quot;,&quot;name&quot;:&quot;Beeline.ru&quot;,&quot;revision&quot;:44,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://ms-prmdvlp001.bee.vimpelcom.ru/tfs/beedev/_apis/projects/7ca83e88-fbfe-4459-a631-eed4da6ed35d&quot;},&quot;_links&quot;:null}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;963958dd-3870-416b-b5eb-b3c5e6842c49&quot;,&quot;name&quot;:&quot;b2c&quot;,&quot;remoteUrl&quot;:&quot;https://tfs.beelinetst.ru/tfs/BeeDev/Beeline.ru/_git/b2c&quot;,&quot;url&quot;:&quot;https://ms-prmdvlp001.bee.vimpelcom.ru/tfs/beedev/_apis/git/repositories/963958dd-3870-416b-b5eb-b3c5e6842c49&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;7ca83e88-fbfe-4459-a631-eed4da6ed35d&quot;,&quot;name&quot;:&quot;Beeline.ru&quot;,&quot;revision&quot;:44,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://ms-prmdvlp001.bee.vimpelcom.ru/tfs/beedev/_apis/projects/7ca83e88-fbfe-4459-a631-eed4da6ed35d&quot;}}" />
         </ServerContextState>
         <ServerContextState>
           <option name="type" value="TFS" />
@@ -18,12 +18,28 @@
           <option name="userId" value="f629839a-3cce-4b7f-a20a-7ca896d1bbcb" />
           <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;d935f920-5f25-40b1-8fd1-04cf31b194a1&quot;,&quot;name&quot;:&quot;BeeDev&quot;,&quot;url&quot;:&quot;https://ms-prmdvlp001.bee.vimpelcom.ru/tfs/_apis/projectCollections/d935f920-5f25-40b1-8fd1-04cf31b194a1&quot;}" />
           <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;7ca83e88-fbfe-4459-a631-eed4da6ed35d&quot;,&quot;name&quot;:&quot;Beeline.ru&quot;,&quot;revision&quot;:44,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://ms-prmdvlp001.bee.vimpelcom.ru/tfs/beedev/_apis/projects/7ca83e88-fbfe-4459-a631-eed4da6ed35d&quot;}" />
-          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;963958dd-3870-416b-b5eb-b3c5e6842c49&quot;,&quot;name&quot;:&quot;b2c&quot;,&quot;remoteUrl&quot;:&quot;https://tfs.beelinetst.ru/tfs/BeeDev/Beeline.ru/_git/b2c&quot;,&quot;url&quot;:&quot;https://ms-prmdvlp001.bee.vimpelcom.ru/tfs/beedev/_apis/git/repositories/963958dd-3870-416b-b5eb-b3c5e6842c49&quot;,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;7ca83e88-fbfe-4459-a631-eed4da6ed35d&quot;,&quot;name&quot;:&quot;Beeline.ru&quot;,&quot;revision&quot;:44,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://ms-prmdvlp001.bee.vimpelcom.ru/tfs/beedev/_apis/projects/7ca83e88-fbfe-4459-a631-eed4da6ed35d&quot;},&quot;_links&quot;:null}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;963958dd-3870-416b-b5eb-b3c5e6842c49&quot;,&quot;name&quot;:&quot;b2c&quot;,&quot;remoteUrl&quot;:&quot;https://tfs.beelinetst.ru/tfs/BeeDev/Beeline.ru/_git/b2c&quot;,&quot;url&quot;:&quot;https://ms-prmdvlp001.bee.vimpelcom.ru/tfs/beedev/_apis/git/repositories/963958dd-3870-416b-b5eb-b3c5e6842c49&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;7ca83e88-fbfe-4459-a631-eed4da6ed35d&quot;,&quot;name&quot;:&quot;Beeline.ru&quot;,&quot;revision&quot;:44,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://ms-prmdvlp001.bee.vimpelcom.ru/tfs/beedev/_apis/projects/7ca83e88-fbfe-4459-a631-eed4da6ed35d&quot;}}" />
         </ServerContextState>
       </array>
     </option>
     <option name="properties">
       <array>
+        <PropertyState>
+          <option name="name" value="tfHome" />
+          <option name="value" value="" />
+        </PropertyState>
+        <PropertyState>
+          <option name="name" value="visualStudioTfClientPath" />
+          <option name="value" value="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe" />
+        </PropertyState>
+        <PropertyState>
+          <option name="name" value="tfvcUseReactiveClientV2" />
+          <option name="value" value="true" />
+        </PropertyState>
+        <PropertyState>
+          <option name="name" value="reactiveClientMemory" />
+          <option name="value" value="2048" />
+        </PropertyState>
         <PropertyState>
           <option name="name" value="lastContextKey" />
           <option name="value" value="//_tfs_last_used_url_" />
