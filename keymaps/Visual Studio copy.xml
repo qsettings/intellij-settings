@@ -361,6 +361,9 @@
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
+  <action id="NextWindow">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="NotebookRunAllAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
     <keyboard-shortcut first-keystroke="shift meta alt enter" />
