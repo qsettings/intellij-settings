@@ -314,6 +314,7 @@
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
     <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="Force touch" />
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="alt end" />
