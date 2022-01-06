@@ -1,10 +1,17 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
     <driver id="sqlserver.ms">
-      <artifact id="SQL Server" name="SQL Server" use="true" version="9.2.0" />
+      <artifact id="SQL Server" name="SQL Server" channel="fixed" rolling="false" use="true" version="9.4.0" />
     </driver>
     <driver id="sqlserver.jtds">
-      <artifact id="jTDS (SQL Server and Sybase)" name="jTDS (SQL Server and Sybase)" use="true" version="1.3.1.1" />
+      <url-template name="new" template="jdbc:jtds:sqlserver://MS-NWBTST004/beeline_skad" />
+      <url-template name="new" template="jdbc:jtds:sqlserver://MS-NWBTST004/beeline_skad" />
+      <url-template name="new" template="jdbc:jtds:sqlserver://MS-NWBTST004/beeline_skad" />
+      <url-template name="new" template="jdbc:jtds:sqlserver://MS-NWBTST004/beeline_skad" />
+      <artifact id="jTDS (SQL Server and Sybase)" name="jTDS (SQL Server and Sybase)" channel="fixed" rolling="false" use="true" version="1.3.1.1" />
+    </driver>
+    <driver id="azure.ms">
+      <artifact id="SQL Server" name="SQL Server" use="true" version="9.4.0" />
     </driver>
     <driver id="oracle.19">
       <artifact id="Oracle" name="Oracle" use="true" version="21.1.0.0" />
@@ -16,5 +23,6 @@
       <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.34.0" />
     </driver>
     <driver id="java.sql.Driver" name="User Driver" driver-class="java.sql.Driver" />
+    <driver id="d52ec96e-8d0c-4c91-8963-ee8b353c9094" name="User Driver [2]" driver-class="java.sql.Driver" />
   </component>
 </application>

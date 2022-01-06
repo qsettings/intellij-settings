@@ -76,6 +76,7 @@
   </action>
   <action id="BuildProject">
     <keyboard-shortcut first-keystroke="ctrl b" />
+    <keyboard-shortcut first-keystroke="meta b" />
   </action>
   <action id="Cargo.RunCargoCommand">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
@@ -118,9 +119,6 @@
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl u" />
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="meta slash" />
-  </action>
-  <action id="Compare.SameVersion">
-    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt d" />
   </action>
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="c" />
@@ -317,6 +315,7 @@
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
     <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="Force touch" />
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="alt end" />
@@ -363,6 +362,9 @@
   <action id="NextProjectWindow" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="NextWindow">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="NotebookRunAllAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
