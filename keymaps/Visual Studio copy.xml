@@ -48,6 +48,7 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt 1" />
     <keyboard-shortcut first-keystroke="ctrl alt t" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt t" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
@@ -75,6 +76,10 @@
   </action>
   <action id="BuildProject">
     <keyboard-shortcut first-keystroke="ctrl b" />
+    <keyboard-shortcut first-keystroke="meta b" />
+  </action>
+  <action id="Cargo.RunCargoCommand">
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
   <action id="ChangesView.Browse">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="p" />
@@ -85,6 +90,9 @@
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="u" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="u" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt u" />
+  </action>
+  <action id="ChangesView.Shelve">
+    <keyboard-shortcut first-keystroke="shift alt h" />
   </action>
   <action id="CloseActiveTab" />
   <action id="CloseContent">
@@ -112,9 +120,6 @@
     <keyboard-shortcut first-keystroke="ctrl slash" />
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
-  <action id="Compare.LastVersion">
-    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt d" />
-  </action>
   <action id="Compare.Selected">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="c" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt c" />
@@ -125,7 +130,15 @@
     <keyboard-shortcut first-keystroke="shift alt c" />
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
+  <action id="Console.Execute.Multiline">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="meta enter" />
+  </action>
   <action id="ContextHelp" />
+  <action id="DatabaseView.DropAction">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="meta back_space" />
+  </action>
   <action id="Debug">
     <keyboard-shortcut first-keystroke="alt f5" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl u" />
@@ -241,6 +254,12 @@
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl down" />
   </action>
+  <action id="EditorToggleUseSoftWraps">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl w" />
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta w" />
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="w" />
+  </action>
   <action id="ExternalJavaDoc" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -296,6 +315,7 @@
     <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="button2" />
     <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="Force touch" />
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="alt end" />
@@ -319,6 +339,14 @@
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
   </action>
+  <action id="MethodDown">
+    <keyboard-shortcut first-keystroke="alt down" />
+    <mouse-shortcut keystroke="alt button4" />
+  </action>
+  <action id="MethodUp">
+    <keyboard-shortcut first-keystroke="alt up" />
+    <mouse-shortcut keystroke="alt button5" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -334,6 +362,9 @@
   <action id="NextProjectWindow" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="NextWindow">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
   </action>
   <action id="NotebookRunAllAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
@@ -374,10 +405,16 @@
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
   </action>
   <action id="ReSharperSelectContainingDeclaration" />
+  <action id="Refresh">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+    <keyboard-shortcut first-keystroke="ctrl meta r" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl f4" />
@@ -409,12 +446,20 @@
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="r" />
   </action>
+  <action id="RunToCursor">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+    <keyboard-shortcut first-keystroke="meta f10" />
+  </action>
   <action id="SaveDocument">
     <keyboard-shortcut first-keystroke="ctrl s" />
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift alt l" />
+  </action>
+  <action id="ShelveChanges.UnshelveWithDialog">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+    <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
@@ -453,6 +498,10 @@
     <keyboard-shortcut first-keystroke="shift insert" />
     <keyboard-shortcut first-keystroke="meta v" />
   </action>
+  <action id="Terminal.SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+    <keyboard-shortcut first-keystroke="meta a" />
+  </action>
   <action id="Tfvc.Annotate">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt a" />
@@ -483,6 +532,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="ctrl alt 1" />
   </action>
   <action id="context.save" />
+  <action id="editRunConfigurations">
+    <keyboard-shortcut first-keystroke="shift alt f5" />
+  </action>
   <action id="hg4idea.QFold" />
   <action id="tasks.switch" />
 </keymap>
