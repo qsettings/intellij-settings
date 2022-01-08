@@ -24,5 +24,6 @@
     </driver>
     <driver id="java.sql.Driver" name="User Driver" driver-class="java.sql.Driver" />
     <driver id="d52ec96e-8d0c-4c91-8963-ee8b353c9094" name="User Driver [2]" driver-class="java.sql.Driver" />
+    <driver id="cfc8de7c-2aee-4e60-8d5b-33f1d8193c38" name="User Driver [3]" driver-class="java.sql.Driver" />
   </component>
 </application>
