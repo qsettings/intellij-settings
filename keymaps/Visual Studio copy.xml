@@ -61,6 +61,7 @@
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt a" />
   </action>
+  <action id="AutoIndentLines" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl minus" />
     <keyboard-shortcut first-keystroke="ctrl subtract" />
@@ -505,6 +506,10 @@
   <action id="Tfvc.Annotate">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt a" />
+  </action>
+  <action id="ToggleInlayHintsGloballyAction">
+    <keyboard-shortcut first-keystroke="meta alt i" />
+    <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
   <action id="UpdateRunningApplication" />
   <action id="Vcs.Push">
