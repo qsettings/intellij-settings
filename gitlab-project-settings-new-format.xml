@@ -5,6 +5,7 @@
         <GitlabServer>
           <option name="apiToken" value="HMc2yMuyiRqABNN7ShM9" />
           <option name="apiUrl" value="https://git.vimpelcom.ru/" />
+          <option name="preferredConnection" value="HTTPS" />
           <option name="repositoryUrl" value="git.vimpelcom.ru" />
         </GitlabServer>
       </list>
