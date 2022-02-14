@@ -11,13 +11,13 @@
     <option name="lastViewedProviderKeyId" value="chain-method.hints" />
   </component>
   <component name="TodoConfiguration">
-    <pattern icon="important" case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
-    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" />
-    <pattern case-sensitive="true" pattern="\bNotImplementedException\b" />
-    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;MYTASK)(\W|$)(.*)" />
     <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;MYTASK)(\W|$)(.*)" />
+    <pattern case-sensitive="true" pattern="\bNotImplementedException\b" />
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" />
+    <pattern icon="important" case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
     <filter name="MYTASK">
-      <pattern index="3" />
+      <pattern index="1" />
     </filter>
   </component>
 </application>
