@@ -2,6 +2,10 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="8-queens" type="AUTO_DETECTED" />
+      <mapping ext="xlsx" type="MyNativeFile" />
+      <mapping ext="xls" type="MyNativeFile" />
+      <removed_mapping ext="xlsx" type="Native" />
+      <removed_mapping ext="xls" type="Native" />
       <mapping ext="out" type="PLAIN_TEXT" />
       <mapping ext="prof" type="PLAIN_TEXT" />
       <mapping ext="pdb" type="PLAIN_TEXT" />
