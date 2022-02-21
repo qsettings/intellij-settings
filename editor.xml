@@ -1,16 +1,20 @@
 <application>
   <component name="CodeInsightSettings">
+    <option name="completionCaseSensitive" value="2" />
+    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
   </component>
   <component name="InlayHintsSettings">
     <option name="lastViewedProviderKeyId" value="chain-method.hints" />
   </component>
   <component name="TodoConfiguration">
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;MYTASK)(\W|$)(.*)" />
     <pattern case-sensitive="true" pattern="\bNotImplementedException\b" />
     <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" />
-    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;MYTASK)(\W|$)(.*)" />
-    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
     <pattern icon="important" case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
-    <filter name="todo" />
+    <filter name="MYTASK">
+      <pattern index="1" />
+    </filter>
   </component>
 </application>
