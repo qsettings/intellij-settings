@@ -1,6 +1,7 @@
 <application>
   <component name="GeneralSettings">
     <option name="confirmExit" value="false" />
+    <option name="defaultProjectDirectory" value="C:\Users\kosha\source\repos\db" />
     <option name="processCloseConfirmation" value="TERMINATE" />
   </component>
   <component name="Registry">
