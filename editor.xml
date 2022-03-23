@@ -1,8 +1,6 @@
 <application>
   <component name="CodeInsightSettings">
     <option name="completionCaseSensitive" value="2" />
-    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
-    <option name="completionCaseSensitive" value="2" />
     <option name="selectAutopopupSuggestionsByChars" value="true" />
     <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
@@ -18,13 +16,11 @@
     <option name="lastViewedProviderKeyId" value="chain-method.hints" />
   </component>
   <component name="TodoConfiguration">
-    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
-    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;MYTASK)(\W|$)(.*)" />
     <pattern case-sensitive="true" pattern="\bNotImplementedException\b" />
-    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" />
     <pattern icon="important" case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
     <filter name="MYTASK">
-      <pattern index="1" />
+      <pattern index="-1" />
     </filter>
   </component>
 </application>
