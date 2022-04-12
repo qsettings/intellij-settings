@@ -1,11 +1,15 @@
 <scheme name="_@user_Rider Dark" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2021-09-09T20:23:45</property>
     <property name="ide">CLion</property>
     <property name="ideVersion">2021.2.1.0.0</property>
-    <property name="modified">2021-09-09T20:35:14</property>
+    <property name="modified">2022-04-12T07:23:11</property>
     <property name="originalScheme">Rider Dark</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="1.1" />
+  <option name="EDITOR_FONT_SIZE" value="11" />
+  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="29421f" />
     <option name="ANNOTATIONS_COLOR" value="909090" />
@@ -46,10 +50,10 @@
     <option name="SOFT_WRAP_SIGN_COLOR" value="787878" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="888899c0" />
     <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="88889940" />
-    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="3838380" />
+    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="838380" />
     <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="88889940" />
     <option name="ScrollBar.Mac.Transparent.thumbColor" value="88889940" />
-    <option name="ScrollBar.Mac.Transparent.trackColor" value="3838380" />
+    <option name="ScrollBar.Mac.Transparent.trackColor" value="838380" />
     <option name="ScrollBar.Mac.hoverThumbBorderColor" value="888899c0" />
     <option name="ScrollBar.Mac.hoverThumbColor" value="88889940" />
     <option name="ScrollBar.Mac.hoverTrackColor" value="383838" />
@@ -58,10 +62,10 @@
     <option name="ScrollBar.Mac.trackColor" value="383838" />
     <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="888899c0" />
     <option name="ScrollBar.Transparent.hoverThumbColor" value="88889940" />
-    <option name="ScrollBar.Transparent.hoverTrackColor" value="3838380" />
+    <option name="ScrollBar.Transparent.hoverTrackColor" value="838380" />
     <option name="ScrollBar.Transparent.thumbBorderColor" value="88889940" />
     <option name="ScrollBar.Transparent.thumbColor" value="88889940" />
-    <option name="ScrollBar.Transparent.trackColor" value="3838380" />
+    <option name="ScrollBar.Transparent.trackColor" value="838380" />
     <option name="ScrollBar.background" value="383838" />
     <option name="ScrollBar.hoverThumbBorderColor" value="888899c0" />
     <option name="ScrollBar.hoverThumbColor" value="88889940" />
@@ -2435,7 +2439,7 @@
         <option name="FOREGROUND" value="c191ff" />
       </value>
     </option>
-    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XPATH.KEYWORD" baseAttributes="" />
     <option name="YAML_COMMENT">
       <value>
         <option name="FOREGROUND" value="85c46c" />
@@ -2478,8 +2482,6 @@
         <option name="FOREGROUND" value="bdbdbd" />
       </value>
     </option>
-    <option name="org.rust.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-    <option name="org.rust.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="org.rust.UNSAFE_CODE">
       <value />
     </option>
