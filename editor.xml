@@ -13,14 +13,13 @@
     <option name="ARE_LINE_NUMBERS_SHOWN" value="false" />
   </component>
   <component name="InlayHintsSettings">
+    <option name="enabled" value="false" />
     <option name="lastViewedProviderKeyId" value="chain-method.hints" />
   </component>
   <component name="TodoConfiguration">
     <pattern case-sensitive="true" pattern="\bNotImplementedException\b" />
     <pattern icon="important" case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
     <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
-    <filter name="MYTASK">
-      <pattern index="-1" />
-    </filter>
+    <filter name="MYTASK" />
   </component>
 </application>
