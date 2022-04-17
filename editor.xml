@@ -1,14 +1,25 @@
 <application>
   <component name="CodeInsightSettings">
+    <option name="completionCaseSensitive" value="2" />
+    <option name="selectAutopopupSuggestionsByChars" value="true" />
+    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
+    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
+    <option name="SELECT_AUTOPOPUP_SUGGESTIONS_BY_CHARS" value="true" />
+    <option name="AUTOCOMPLETE_ON_CODE_COMPLETION" value="false" />
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
   </component>
+  <component name="EditorSettings">
+    <option name="STRIP_TRAILING_SPACES" value="None" />
+    <option name="ARE_LINE_NUMBERS_SHOWN" value="false" />
+  </component>
   <component name="InlayHintsSettings">
+    <option name="enabled" value="false" />
     <option name="lastViewedProviderKeyId" value="chain-method.hints" />
   </component>
   <component name="TodoConfiguration">
     <pattern case-sensitive="true" pattern="\bNotImplementedException\b" />
     <pattern icon="important" case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
     <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
-    <filter name="todo" />
+    <filter name="MYTASK" />
   </component>
 </application>
