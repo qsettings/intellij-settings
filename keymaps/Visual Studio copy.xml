@@ -271,6 +271,12 @@
     <keyboard-shortcut first-keystroke="meta e" second-keystroke="w" />
   </action>
   <action id="ExternalJavaDoc" />
+  <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="m" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl m" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta m" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="m" />
+  </action>
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="ctrl n" />
