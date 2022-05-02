@@ -353,6 +353,12 @@
   <action id="HelpTopics" />
   <action id="HideActiveWindow" />
   <action id="IntroduceConstant" />
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="v" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta v" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="v" />
+  </action>
   <action id="JupyterDebugAction">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
