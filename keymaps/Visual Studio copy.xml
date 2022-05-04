@@ -258,6 +258,9 @@
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
   </action>
+  <action id="EditorScrollTop">
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl up" />
@@ -349,7 +352,19 @@
   </action>
   <action id="HelpTopics" />
   <action id="HideActiveWindow" />
+  <action id="Inline">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="i" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl i" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="i" />
+  </action>
   <action id="IntroduceConstant" />
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="v" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta v" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="v" />
+  </action>
   <action id="JupyterDebugAction">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
@@ -469,6 +484,9 @@
     <keyboard-shortcut first-keystroke="ctrl s" />
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
+  <action id="ScrollPane-scrollEnd">
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
@@ -526,6 +544,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
   <action id="UpdateRunningApplication" />
+  <action id="UsageFiltering.ReadAccess" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="up" />
