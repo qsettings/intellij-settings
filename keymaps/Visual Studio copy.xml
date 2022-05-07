@@ -148,6 +148,8 @@
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl d" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="d" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="d" />
   </action>
   <action id="Debugger.AddToWatch">
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="a" />
