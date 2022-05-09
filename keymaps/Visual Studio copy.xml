@@ -199,9 +199,6 @@
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
-  <action id="EditorCreateRectangularSelection">
-    <mouse-shortcut keystroke="shift alt button1" />
-  </action>
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
     <mouse-shortcut keystroke="alt button1" />
     <mouse-shortcut keystroke="button2" />
@@ -422,6 +419,9 @@
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
   <action id="Print" />
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="ctrl alt f8" />
+  </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="shift ctrl f1" />
     <keyboard-shortcut first-keystroke="f1" />
