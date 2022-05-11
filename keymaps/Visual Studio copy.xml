@@ -257,8 +257,21 @@
   <action id="EditorResetFontSize">
     <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
   </action>
-  <action id="EditorScrollTop">
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="ctrl end" />
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorTextEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl end" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="ctrl home" />
     <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl home" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="up" />
@@ -493,9 +506,6 @@
   <action id="SaveDocument">
     <keyboard-shortcut first-keystroke="ctrl s" />
     <keyboard-shortcut first-keystroke="meta s" />
-  </action>
-  <action id="ScrollPane-scrollEnd">
-    <keyboard-shortcut first-keystroke="meta down" />
   </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift alt l" />
