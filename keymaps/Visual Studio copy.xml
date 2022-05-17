@@ -148,6 +148,8 @@
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl d" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="d" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="d" />
   </action>
   <action id="Debugger.AddToWatch">
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="a" />
@@ -197,16 +199,13 @@
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
-  <action id="EditorCreateRectangularSelection">
-    <mouse-shortcut keystroke="shift alt button1" />
-  </action>
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
     <mouse-shortcut keystroke="alt button1" />
     <mouse-shortcut keystroke="button2" />
     <mouse-shortcut keystroke="shift alt button1" />
   </action>
   <action id="EditorDecreaseFontSize">
-    <mouse-shortcut keystroke="control button142" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta back_space" />
@@ -220,7 +219,7 @@
     <keyboard-shortcut first-keystroke="meta d" />
   </action>
   <action id="EditorIncreaseFontSize">
-    <mouse-shortcut keystroke="control button143" />
+    <keyboard-shortcut first-keystroke="ctrl equals" />
   </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
@@ -255,6 +254,25 @@
     <keyboard-shortcut first-keystroke="shift ctrl left" />
     <keyboard-shortcut first-keystroke="shift alt left" />
   </action>
+  <action id="EditorResetFontSize">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+  </action>
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="ctrl end" />
+    <keyboard-shortcut first-keystroke="meta down" />
+  </action>
+  <action id="EditorTextEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl end" />
+    <keyboard-shortcut first-keystroke="shift meta down" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="ctrl home" />
+    <keyboard-shortcut first-keystroke="meta up" />
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl home" />
+    <keyboard-shortcut first-keystroke="shift meta up" />
+  </action>
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl up" />
@@ -268,6 +286,12 @@
     <keyboard-shortcut first-keystroke="meta e" second-keystroke="w" />
   </action>
   <action id="ExternalJavaDoc" />
+  <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="m" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl m" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta m" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="m" />
+  </action>
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="ctrl n" />
@@ -340,7 +364,19 @@
   </action>
   <action id="HelpTopics" />
   <action id="HideActiveWindow" />
+  <action id="Inline">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="i" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl i" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="i" />
+  </action>
   <action id="IntroduceConstant" />
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="v" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta v" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="v" />
+  </action>
   <action id="JupyterDebugAction">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
@@ -396,6 +432,9 @@
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
   <action id="Print" />
+  <action id="QuickEvaluateExpression">
+    <keyboard-shortcut first-keystroke="ctrl alt f8" />
+  </action>
   <action id="QuickJavaDoc">
     <keyboard-shortcut first-keystroke="shift ctrl f1" />
     <keyboard-shortcut first-keystroke="f1" />
@@ -411,6 +450,14 @@
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
   </action>
   <action id="ReSharperSelectContainingDeclaration" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="d" />
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="meta alt enter" />
+  </action>
   <action id="Refresh">
     <keyboard-shortcut first-keystroke="ctrl alt r" />
     <keyboard-shortcut first-keystroke="ctrl meta r" />
@@ -451,6 +498,8 @@
     <keyboard-shortcut first-keystroke="ctrl f5" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="r" />
   </action>
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="ctrl f10" />
@@ -494,6 +543,14 @@
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
     <keyboard-shortcut first-keystroke="meta close_bracket" />
   </action>
+  <action id="TabShiftActions.StretchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt open_bracket" />
+    <keyboard-shortcut first-keystroke="meta alt open_bracket" />
+  </action>
+  <action id="TabShiftActions.StretchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt close_bracket" />
+    <keyboard-shortcut first-keystroke="meta alt close_bracket" />
+  </action>
   <action id="Terminal.CopySelectedText">
     <keyboard-shortcut first-keystroke="ctrl c" />
     <keyboard-shortcut first-keystroke="ctrl insert" />
@@ -512,11 +569,16 @@
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt a" />
   </action>
+  <action id="ToggleBreakpointEnabled">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+    <keyboard-shortcut first-keystroke="meta f9" />
+  </action>
   <action id="ToggleInlayHintsGloballyAction">
     <keyboard-shortcut first-keystroke="meta alt i" />
     <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
   <action id="UpdateRunningApplication" />
+  <action id="UsageFiltering.ReadAccess" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="up" />
