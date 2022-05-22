@@ -154,6 +154,8 @@
   <action id="Debugger.AddToWatch">
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="ctrl alt a" />
+    <keyboard-shortcut first-keystroke="meta alt w" second-keystroke="a" />
+    <keyboard-shortcut first-keystroke="meta alt w" second-keystroke="meta alt a" />
   </action>
   <action id="Diff.ShowDiff">
     <keyboard-shortcut first-keystroke="ctrl d" />
