@@ -1,4 +1,7 @@
 <code_scheme name="Default" version="173">
+  <RsCodeStyleSettings>
+    <option name="PRESERVE_PUNCTUATION" value="true" />
+  </RsCodeStyleSettings>
   <codeStyleSettings language="Python">
     <option name="RIGHT_MARGIN" value="120" />
     <option name="CALL_PARAMETERS_WRAP" value="5" />
