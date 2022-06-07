@@ -599,6 +599,10 @@
   </action>
   <action id="Vcs.UpdateProject" />
   <action id="VcsHistory.ShowAllAffected" />
+  <action id="ViewBreakpoints">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+    <keyboard-shortcut first-keystroke="meta alt b" />
+  </action>
   <action id="WelcomeScreen.Configure.Export">
     <keyboard-shortcut first-keystroke="alt j" />
   </action>
