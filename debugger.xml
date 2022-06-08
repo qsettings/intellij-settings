@@ -97,7 +97,6 @@
       <debugger id="Rust">
         <configuration>
           <option name="gdbRenderers" value="Rust compiler's renderers" />
-          <option name="lldbRenderers" value="Rust compiler's renderers" />
         </configuration>
       </debugger>
       <debugger id="javascript">
