@@ -510,6 +510,12 @@
   <action id="RiderUnitTestQuickListPopupAction">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
+  <action id="RiderUnitTestRepeatPreviousRunAction">
+    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="u" />
+    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl u" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta u" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="u" />
+  </action>
   <action id="RiderUnitTestRunContextAction">
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl r" />
