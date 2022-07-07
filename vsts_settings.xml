@@ -1,0 +1,27 @@
+<application>
+  <component name="VSTSSettings">
+    <option name="serverContexts">
+      <array />
+    </option>
+    <option name="properties">
+      <array>
+        <PropertyState>
+          <option name="name" value="tfHome" />
+          <option name="value" value="" />
+        </PropertyState>
+        <PropertyState>
+          <option name="name" value="visualStudioTfClientPath" />
+          <option name="value" value="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe" />
+        </PropertyState>
+        <PropertyState>
+          <option name="name" value="tfvcUseReactiveClientV2" />
+          <option name="value" value="true" />
+        </PropertyState>
+        <PropertyState>
+          <option name="name" value="reactiveClientMemory" />
+          <option name="value" value="2048" />
+        </PropertyState>
+      </array>
+    </option>
+  </component>
+</application>
