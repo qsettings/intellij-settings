@@ -31,6 +31,17 @@
             <PluginData />
           </value>
         </entry>
+        <entry key="socrates.tabshifter">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
