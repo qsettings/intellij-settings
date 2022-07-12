@@ -4,7 +4,7 @@
     <property name="created">2021-09-09T20:23:45</property>
     <property name="ide">CLion</property>
     <property name="ideVersion">2021.2.1.0.0</property>
-    <property name="modified">2022-07-07T23:30:19</property>
+    <property name="modified">2022-07-12T22:11:58</property>
     <property name="originalScheme">Rider Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -24,7 +24,7 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="org.rust.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="org.rust.UNSAFE_CODE">
       <value />
     </option>
