@@ -92,6 +92,12 @@
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt p" />
   </action>
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
+  </action>
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt u" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="u" />
@@ -561,6 +567,12 @@
   <action id="ShelveChanges.UnshelveWithDialog">
     <keyboard-shortcut first-keystroke="shift ctrl u" />
     <keyboard-shortcut first-keystroke="shift alt u" />
+  </action>
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
   </action>
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
