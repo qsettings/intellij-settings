@@ -154,11 +154,6 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
-  <action id="Debug">
-    <keyboard-shortcut first-keystroke="alt f5" />
-    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl u" />
-    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="u" />
-  </action>
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl d" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="d" />
@@ -511,6 +506,10 @@
     <keyboard-shortcut first-keystroke="ctrl h" />
     <keyboard-shortcut first-keystroke="meta h" />
   </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta u" />
+    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl u" />
+  </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift alt e" />
   </action>
@@ -638,6 +637,7 @@
   </action>
   <action id="UpdateRunningApplication" />
   <action id="UsageFiltering.ReadAccess" />
+  <action id="UsageView.Rerun" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="up" />
