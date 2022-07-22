@@ -289,10 +289,10 @@
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorToggleCase">
-    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl up" />
-    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl down" />
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta down" />
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta up" />
   </action>
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="w" />
