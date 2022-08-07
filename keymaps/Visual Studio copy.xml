@@ -79,6 +79,10 @@
     <keyboard-shortcut first-keystroke="ctrl b" />
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
+  <action id="CPP.CreateCMakeProject">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
   <action id="Cargo.RunCargoCommand">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
@@ -422,10 +426,7 @@
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="alt insert" />
-    <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="i" />
-    <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="shift alt i" />
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="shift alt a" />
-    <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="NewScratchFile">
