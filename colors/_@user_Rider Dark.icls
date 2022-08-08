@@ -4,83 +4,17 @@
     <property name="created">2021-09-09T20:23:45</property>
     <property name="ide">CLion</property>
     <property name="ideVersion">2021.2.1.0.0</property>
-    <property name="modified">2022-07-14T21:07:10</property>
+    <property name="modified">2022-08-07T17:22:07</property>
     <property name="originalScheme">Rider Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="11" />
+  <option name="EDITOR_FONT_SIZE" value="10" />
   <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="29421f" />
-    <option name="ANNOTATIONS_COLOR" value="909090" />
-    <option name="BookmarkIcon.background" value="d9b72b" />
-    <option name="CARET_COLOR" value="f0f0f0" />
-    <option name="CARET_ROW_COLOR" value="202424" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="303030" />
-    <option name="DELETED_LINES_COLOR" value="bf3428" />
-    <option name="DIFF_SEPARATORS_BACKGROUND" value="686868" />
-    <option name="DOCUMENTATION_COLOR" value="303030" />
-    <option name="ERROR_HINT" value="4a2421" />
-    <option name="FOLDED_TEXT_BORDER_COLOR" value="404040" />
-    <option name="GUTTER_BACKGROUND" value="282828" />
-    <option name="HTML_TAG_TREE_LEVEL0" value="ff0000" />
-    <option name="HTML_TAG_TREE_LEVEL1" value="ffff00" />
-    <option name="HTML_TAG_TREE_LEVEL2" value="ff00" />
-    <option name="HTML_TAG_TREE_LEVEL3" value="ffff" />
-    <option name="HTML_TAG_TREE_LEVEL4" value="ff" />
-    <option name="HTML_TAG_TREE_LEVEL5" value="ff00ff" />
-    <option name="INDENT_GUIDE" value="404040" />
-    <option name="INFORMATION_HINT" value="303030" />
-    <option name="LINE_NUMBERS_COLOR" value="808080" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="808080" />
-    <option name="METHOD_SEPARATORS_COLOR" value="404040" />
-    <option name="MODIFIED_LINES_COLOR" value="293a5f" />
-    <option name="MnemonicIcon.background" value="d9b72b" />
-    <option name="MnemonicIcon.borderColor" value="282828" />
-    <option name="MnemonicIcon.foreground" value="262626" />
-    <option name="NOTIFICATION_BACKGROUND" value="3d3020" />
-    <option name="QUESTION_HINT" value="3d3020" />
-    <option name="READONLY_BACKGROUND" value="303030" />
-    <option name="READONLY_FRAGMENT_BACKGROUND" value="303030" />
-    <option name="RECURSIVE_CALL_ATTRIBUTES" value="a65426" />
-    <option name="RIGHT_MARGIN_COLOR" value="404040" />
-    <option name="SELECTED_INDENT_GUIDE" value="666666" />
-    <option name="SELECTED_TEARLINE_COLOR" value="666666" />
-    <option name="SELECTION_BACKGROUND" value="8335e" />
-    <option name="SOFT_WRAP_SIGN_COLOR" value="787878" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbBorderColor" value="888899c0" />
-    <option name="ScrollBar.Mac.Transparent.hoverThumbColor" value="88889940" />
     <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="838380" />
-    <option name="ScrollBar.Mac.Transparent.thumbBorderColor" value="88889940" />
-    <option name="ScrollBar.Mac.Transparent.thumbColor" value="88889940" />
     <option name="ScrollBar.Mac.Transparent.trackColor" value="838380" />
-    <option name="ScrollBar.Mac.hoverThumbBorderColor" value="888899c0" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="88889940" />
-    <option name="ScrollBar.Mac.hoverTrackColor" value="383838" />
-    <option name="ScrollBar.Mac.thumbBorderColor" value="88889940" />
-    <option name="ScrollBar.Mac.thumbColor" value="88889940" />
-    <option name="ScrollBar.Mac.trackColor" value="383838" />
-    <option name="ScrollBar.Transparent.hoverThumbBorderColor" value="888899c0" />
-    <option name="ScrollBar.Transparent.hoverThumbColor" value="88889940" />
     <option name="ScrollBar.Transparent.hoverTrackColor" value="838380" />
-    <option name="ScrollBar.Transparent.thumbBorderColor" value="88889940" />
-    <option name="ScrollBar.Transparent.thumbColor" value="88889940" />
     <option name="ScrollBar.Transparent.trackColor" value="838380" />
-    <option name="ScrollBar.background" value="383838" />
-    <option name="ScrollBar.hoverThumbBorderColor" value="888899c0" />
-    <option name="ScrollBar.hoverThumbColor" value="88889940" />
-    <option name="ScrollBar.hoverTrackColor" value="383838" />
-    <option name="ScrollBar.thumbBorderColor" value="88889940" />
-    <option name="ScrollBar.thumbColor" value="88889940" />
-    <option name="ScrollBar.trackColor" value="383838" />
-    <option name="TEARLINE_COLOR" value="404040" />
-    <option name="VCS_ANNOTATIONS_COLOR_1" value="21331a" />
-    <option name="VCS_ANNOTATIONS_COLOR_2" value="2b3427" />
-    <option name="VCS_ANNOTATIONS_COLOR_3" value="343434" />
-    <option name="VCS_ANNOTATIONS_COLOR_4" value="3f2c2b" />
-    <option name="VCS_ANNOTATIONS_COLOR_5" value="4a2421" />
-    <option name="WHITESPACES" value="686868" />
-    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="493927" />
   </colors>
   <attributes>
     <option name="CONSOLE_ERROR_OUTPUT">
