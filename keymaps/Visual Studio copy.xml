@@ -49,6 +49,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt 1" />
     <keyboard-shortcut first-keystroke="ctrl alt t" />
     <keyboard-shortcut first-keystroke="shift ctrl alt t" />
+    <keyboard-shortcut first-keystroke="meta alt t" />
   </action>
   <action id="ActivateVersionControlToolWindow">
     <keyboard-shortcut first-keystroke="alt 9" />
@@ -79,12 +80,28 @@
     <keyboard-shortcut first-keystroke="ctrl b" />
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
+  <action id="CPP.CreateCMakeProject">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
   <action id="Cargo.RunCargoCommand">
     <keyboard-shortcut first-keystroke="shift ctrl b" />
+  </action>
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="s" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="s" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta s" />
   </action>
   <action id="ChangesView.Browse">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt p" />
+  </action>
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
   </action>
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt u" />
@@ -96,6 +113,10 @@
     <keyboard-shortcut first-keystroke="shift alt h" />
   </action>
   <action id="CloseActiveTab" />
+  <action id="CloseAllUnpinnedEditors">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="meta w" />
@@ -131,24 +152,16 @@
     <keyboard-shortcut first-keystroke="shift alt c" />
     <keyboard-shortcut first-keystroke="shift alt d" />
   </action>
-  <action id="CompileDirty">
-    <keyboard-shortcut first-keystroke="f7" />
-    <keyboard-shortcut first-keystroke="meta b" />
-    <keyboard-shortcut first-keystroke="ctrl b" />
-  </action>
   <action id="Console.Execute.Multiline">
     <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
+  <action id="Console.TableResult.NextPage" />
+  <action id="Console.TableResult.PreviousPage" />
   <action id="ContextHelp" />
   <action id="DatabaseView.DropAction">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="meta back_space" />
-  </action>
-  <action id="Debug">
-    <keyboard-shortcut first-keystroke="alt f5" />
-    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl u" />
-    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="u" />
   </action>
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl d" />
@@ -281,10 +294,10 @@
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
   <action id="EditorToggleCase">
-    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl up" />
-    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl down" />
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta down" />
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta up" />
   </action>
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="w" />
@@ -355,6 +368,12 @@
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="Git.Squash.Commits">
+    <keyboard-shortcut first-keystroke="meta s" second-keystroke="s" />
+    <keyboard-shortcut first-keystroke="meta s" second-keystroke="meta s" />
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="s" />
+    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="ctrl s" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
     <mouse-shortcut keystroke="control button1" />
@@ -368,10 +387,12 @@
     <keyboard-shortcut first-keystroke="meta f12" />
     <mouse-shortcut keystroke="meta alt button1" />
     <mouse-shortcut keystroke="control alt button1" />
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="alt home" />
     <keyboard-shortcut first-keystroke="meta alt up" />
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="shift alt t" />
@@ -406,16 +427,14 @@
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="alt insert" />
-    <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="i" />
-    <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="shift alt i" />
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="shift alt a" />
-    <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="meta t" />
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
+  <action id="NextOccurence" />
   <action id="NextProjectWindow" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta alt right" />
@@ -442,6 +461,7 @@
     <keyboard-shortcut first-keystroke="ctrl p" />
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
+  <action id="PreviousOccurence" />
   <action id="PreviousProjectWindow" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="meta alt left" />
@@ -465,10 +485,6 @@
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
   </action>
   <action id="ReSharperSelectContainingDeclaration" />
-  <action id="Refactorings.QuickListPopupAction">
-    <keyboard-shortcut first-keystroke="shift ctrl r" />
-    <keyboard-shortcut first-keystroke="shift meta r" />
-  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
@@ -495,6 +511,10 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl h" />
     <keyboard-shortcut first-keystroke="meta h" />
+  </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta u" />
+    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl u" />
   </action>
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="shift alt e" />
@@ -531,12 +551,19 @@
     <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="meta u" second-keystroke="r" />
   </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="meta f5" />
+  </action>
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="ctrl f5" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl r" />
-    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta r" />
-    <keyboard-shortcut first-keystroke="meta u" second-keystroke="r" />
+  </action>
+  <action id="RunDashboard.Run">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta r" />
   </action>
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="ctrl f10" />
@@ -553,6 +580,12 @@
     <keyboard-shortcut first-keystroke="shift ctrl u" />
     <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
+  </action>
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl w" />
@@ -560,6 +593,7 @@
   </action>
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="ctrl f1" />
+    <keyboard-shortcut first-keystroke="meta f1" />
   </action>
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -616,6 +650,7 @@
   </action>
   <action id="UpdateRunningApplication" />
   <action id="UsageFiltering.ReadAccess" />
+  <action id="UsageView.Rerun" />
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="up" />
