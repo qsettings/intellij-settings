@@ -1,7 +1,17 @@
 <application>
   <component name="VSTSSettings">
     <option name="serverContexts">
-      <array />
+      <array>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://vyrty@dev.azure.com/vyrty/C3R/_git/vyrty-main" />
+          <option name="serverUri" value="https://dev.azure.com/vyrty" />
+          <option name="userId" value="dfa3d5e0-797a-62ff-a51a-0a44fda26cae" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;d9daf316-916e-4a11-815e-d1555b62d73d&quot;,&quot;name&quot;:&quot;vyrty&quot;,&quot;url&quot;:&quot;https://dev.azure.com/vyrty/_apis/projectCollections/d9daf316-916e-4a11-815e-d1555b62d73d&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;SyncMD Development&quot;,&quot;id&quot;:&quot;5133e13f-385f-464a-a53f-4f03625aa1d3&quot;,&quot;name&quot;:&quot;C3R&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/vyrty/_apis/projects/5133e13f-385f-464a-a53f-4f03625aa1d3&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;e56a45ca-a922-4fd2-9960-971648970772&quot;,&quot;name&quot;:&quot;vyrty-main&quot;,&quot;remoteUrl&quot;:&quot;https://vyrty@dev.azure.com/vyrty/C3R/_git/vyrty-main&quot;,&quot;url&quot;:&quot;https://dev.azure.com/vyrty/_apis/git/repositories/e56a45ca-a922-4fd2-9960-971648970772&quot;,&quot;_links&quot;:null,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;SyncMD Development&quot;,&quot;id&quot;:&quot;5133e13f-385f-464a-a53f-4f03625aa1d3&quot;,&quot;name&quot;:&quot;C3R&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/vyrty/_apis/projects/5133e13f-385f-464a-a53f-4f03625aa1d3&quot;}}" />
+        </ServerContextState>
+      </array>
     </option>
     <option name="properties">
       <array>
@@ -20,6 +30,10 @@
         <PropertyState>
           <option name="name" value="reactiveClientMemory" />
           <option name="value" value="2048" />
+        </PropertyState>
+        <PropertyState>
+          <option name="name" value="lastContextKey" />
+          <option name="value" value="//vyrty@dev.azure.com/vyrty/c3r/_git/vyrty-main" />
         </PropertyState>
       </array>
     </option>
