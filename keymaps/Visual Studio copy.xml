@@ -589,7 +589,7 @@
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl w" />
-    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="w" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta w" />
   </action>
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="ctrl f1" />
@@ -639,6 +639,10 @@
   <action id="Tfvc.Annotate">
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt a" />
+  </action>
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="ctrl k" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta k" />
   </action>
   <action id="ToggleBreakpointEnabled">
     <keyboard-shortcut first-keystroke="ctrl f9" />
