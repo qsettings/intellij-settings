@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="8-queens" type="AUTO_DETECTED" />
+      <mapping ext="pickle" type="PLAIN_TEXT" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
@@ -18,6 +19,9 @@
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="xls" approved="true" type="Native" />
       <removed_mapping ext="xlsx" approved="true" type="Native" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="space.kts" type="Kotlin" />
     </extensionMap>
   </component>
 </application>
