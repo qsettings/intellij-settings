@@ -4,11 +4,11 @@
     <property name="created">2021-09-09T20:23:45</property>
     <property name="ide">CLion</property>
     <property name="ideVersion">2021.2.1.0.0</property>
-    <property name="modified">2022-07-14T21:07:10</property>
+    <property name="modified">2022-08-18T09:38:57</property>
     <property name="originalScheme">Rider Dark</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
-  <option name="EDITOR_FONT_SIZE" value="11" />
+  <option name="EDITOR_FONT_SIZE" value="10" />
   <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
   <colors>
     <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="838380" />
@@ -30,8 +30,6 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="org.rust.FUNCTION_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
-    <option name="org.rust.METHOD_CALL" baseAttributes="DEFAULT_FUNCTION_CALL" />
     <option name="org.rust.UNSAFE_CODE">
       <value />
     </option>
