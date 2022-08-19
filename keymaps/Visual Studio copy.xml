@@ -33,7 +33,6 @@
   </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt 5" />
-    <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="ctrl alt w" />
     <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
