@@ -33,7 +33,6 @@
   </action>
   <action id="ActivateDebugToolWindow">
     <keyboard-shortcut first-keystroke="alt 5" />
-    <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="ctrl alt w" />
     <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
@@ -532,6 +531,10 @@
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl d" />
     <keyboard-shortcut first-keystroke="meta u" second-keystroke="d" />
     <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta d" />
+  </action>
+  <action id="RiderUnitTestFocusExplorerAction">
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
+    <keyboard-shortcut first-keystroke="meta alt u" />
   </action>
   <action id="RiderUnitTestFocusSessionAction">
     <keyboard-shortcut first-keystroke="shift alt u" />
