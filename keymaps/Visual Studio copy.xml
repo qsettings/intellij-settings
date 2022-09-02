@@ -655,6 +655,10 @@
     <keyboard-shortcut first-keystroke="meta alt i" />
     <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
+  <action id="Unscramble">
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta t" />
+  </action>
   <action id="UpdateRunningApplication" />
   <action id="UsageFiltering.ReadAccess" />
   <action id="UsageView.Rerun" />
