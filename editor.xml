@@ -18,6 +18,9 @@
     <pattern case-sensitive="true" pattern="\bNotImplementedException\b" />
     <pattern icon="important" case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
     <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
-    <filter name="MYTASK" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;#q)(\W|$)(.*)" />
+    <filter name="Q">
+      <pattern index="3" />
+    </filter>
   </component>
 </application>
