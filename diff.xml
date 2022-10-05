@@ -37,11 +37,6 @@
           <option name="USE_SOFT_WRAPS" value="true" />
         </PlaceSettings>
       </entry>
-      <entry key="ShelveView">
-        <PlaceSettings>
-          <option name="USE_SOFT_WRAPS" value="true" />
-        </PlaceSettings>
-      </entry>
     </option>
   </component>
 </application>
