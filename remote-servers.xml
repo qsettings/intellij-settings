@@ -4,7 +4,6 @@
       <configuration>
         <option name="apiUrl" value="npipe:////./pipe/docker_engine" />
         <option name="certificatesPath" />
-        <option name="connected" value="true" />
       </configuration>
     </remote-server>
   </component>

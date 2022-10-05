@@ -87,7 +87,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl b" />
   </action>
   <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="s" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="s" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta s" />
   </action>
   <action id="ChangesView.Browse">
@@ -95,6 +97,8 @@
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt p" />
   </action>
   <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
   </action>
@@ -160,7 +164,9 @@
   </action>
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="d" />
     <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta d" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="d" />
   </action>
   <action id="Debugger.AddToWatch">
     <keyboard-shortcut first-keystroke="ctrl alt w" second-keystroke="a" />
@@ -300,8 +306,10 @@
   </action>
   <action id="ExternalJavaDoc" />
   <action id="ExtractMethod">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="m" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl m" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta m" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="m" />
   </action>
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -336,6 +344,7 @@
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt insert" />
+    <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="a" />
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="shift alt a" />
   </action>
   <action id="Git.Branches">
@@ -352,7 +361,9 @@
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt down" />
   </action>
   <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="f2" />
   </action>
@@ -388,13 +399,17 @@
   <action id="HelpTopics" />
   <action id="HideActiveWindow" />
   <action id="Inline">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="i" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl i" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta i" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="i" />
   </action>
   <action id="IntroduceConstant" />
   <action id="IntroduceVariable">
-    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta v" />
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="v" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta v" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="v" />
   </action>
   <action id="JupyterDebugAction">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
@@ -482,9 +497,11 @@
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
   <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="f2" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl f4" />
@@ -510,7 +527,9 @@
   </action>
   <action id="RiderOnlineHelpAction" />
   <action id="RiderUnitTestDebugContextAction">
+    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="d" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="d" />
     <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta d" />
   </action>
   <action id="RiderUnitTestFocusExplorerAction">
@@ -524,12 +543,16 @@
     <keyboard-shortcut first-keystroke="shift ctrl u" />
   </action>
   <action id="RiderUnitTestRepeatPreviousRunAction">
+    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="u" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl u" />
     <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta u" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="u" />
   </action>
   <action id="RiderUnitTestRunContextAction">
+    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta r" />
+    <keyboard-shortcut first-keystroke="meta u" second-keystroke="r" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="ctrl f5" />
@@ -540,10 +563,6 @@
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta r" />
   </action>
-  <action id="RunDashboard.Debug">
-    <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl d" />
-    <keyboard-shortcut first-keystroke="meta u" second-keystroke="meta d" />
-  </action>
   <action id="RunDashboard.Run">
     <keyboard-shortcut first-keystroke="ctrl f5" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl r" />
@@ -552,10 +571,6 @@
   <action id="RunToCursor">
     <keyboard-shortcut first-keystroke="ctrl f10" />
     <keyboard-shortcut first-keystroke="meta f10" />
-  </action>
-  <action id="SafeDelete">
-    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl d" />
-    <keyboard-shortcut first-keystroke="alt delete" />
   </action>
   <action id="SaveDocument">
     <keyboard-shortcut first-keystroke="ctrl s" />
@@ -569,6 +584,8 @@
     <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
   <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
   </action>
