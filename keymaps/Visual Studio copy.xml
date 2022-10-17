@@ -368,9 +368,7 @@
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="Git.Squash.Commits">
-    <keyboard-shortcut first-keystroke="meta s" second-keystroke="s" />
     <keyboard-shortcut first-keystroke="meta s" second-keystroke="meta s" />
-    <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="s" />
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="ctrl s" />
   </action>
   <action id="GotoDeclaration">
