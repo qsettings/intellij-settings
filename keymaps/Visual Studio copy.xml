@@ -371,6 +371,10 @@
     <keyboard-shortcut first-keystroke="meta s" second-keystroke="meta s" />
     <keyboard-shortcut first-keystroke="ctrl s" second-keystroke="ctrl s" />
   </action>
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+    <keyboard-shortcut first-keystroke="shift meta a" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
     <mouse-shortcut keystroke="control button1" />
