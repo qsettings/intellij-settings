@@ -6,7 +6,15 @@
           <option name="type" value="VSO" />
           <option name="uri" value="https://vyrty.visualstudio.com" />
           <option name="serverUri" value="https://vyrty.visualstudio.com" />
-          <option name="userId" value="dfa3d5e0-797a-62ff-a51a-0a44fda26cae" />
+          <option name="userId" value="07d51f3c-a4c3-4983-998d-3f1309c3880a" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;d9daf316-916e-4a11-815e-d1555b62d73d&quot;,&quot;name&quot;:&quot;vyrty&quot;,&quot;url&quot;:&quot;https://vyrty.visualstudio.com/_apis/projectCollections/d9daf316-916e-4a11-815e-d1555b62d73d&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;89b3e665-f377-4346-a8bb-8069f5ca6844&quot;,&quot;name&quot;:&quot;SYNC.ID&quot;,&quot;revision&quot;:79,&quot;state&quot;:&quot;WELL_FORMED&quot;,&quot;url&quot;:&quot;https://vyrty.visualstudio.com/_apis/projects/89b3e665-f377-4346-a8bb-8069f5ca6844&quot;}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO_DEPLOYMENT" />
+          <option name="uri" value="https://app.vssps.visualstudio.com" />
+          <option name="serverUri" value="https://app.vssps.visualstudio.com" />
+          <option name="userId" value="07d51f3c-a4c3-4983-998d-3f1309c3880a" />
           <option name="teamProjectCollectionReference" value="{&quot;id&quot;:null,&quot;name&quot;:null,&quot;url&quot;:null}" />
           <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:null,&quot;name&quot;:null,&quot;revision&quot;:0,&quot;state&quot;:null,&quot;url&quot;:null}" />
         </ServerContextState>
@@ -37,6 +45,10 @@
         <PropertyState>
           <option name="name" value="reactiveClientMemory" />
           <option name="value" value="2048" />
+        </PropertyState>
+        <PropertyState>
+          <option name="name" value="lastContextKey" />
+          <option name="value" value="//vyrty.visualstudio.com" />
         </PropertyState>
       </array>
     </option>
