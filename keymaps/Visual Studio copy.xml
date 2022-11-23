@@ -105,8 +105,6 @@
     <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt p" />
   </action>
   <action id="ChangesView.Rename">
-    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
-    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
   </action>
@@ -371,10 +369,11 @@
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="down" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt down" />
   </action>
+  <action id="Git.Rename.Local.Branch">
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
+  </action>
   <action id="Git.Reword.Commit">
-    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
-    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="f2" />
   </action>
@@ -510,11 +509,9 @@
     <keyboard-shortcut first-keystroke="ctrl meta r" />
   </action>
   <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="f2" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
-    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl f4" />
@@ -603,8 +600,6 @@
     <keyboard-shortcut first-keystroke="shift alt u" />
   </action>
   <action id="ShelvedChanges.Rename">
-    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
-    <keyboard-shortcut first-keystroke="meta r" second-keystroke="r" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta r" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
   </action>
