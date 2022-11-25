@@ -496,6 +496,14 @@
     <keyboard-shortcut first-keystroke="meta alt back_quote" />
   </action>
   <action id="ReSharperSelectContainingDeclaration" />
+  <action id="RecentFiles">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+    <keyboard-shortcut first-keystroke="shift alt r" second-keystroke="shift alt f" />
+  </action>
+  <action id="RecentLocations">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+    <keyboard-shortcut first-keystroke="shift alt r" second-keystroke="shift alt l" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
     <keyboard-shortcut first-keystroke="ctrl k" second-keystroke="f" />
