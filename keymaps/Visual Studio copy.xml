@@ -603,6 +603,9 @@
     <keyboard-shortcut first-keystroke="ctrl s" />
     <keyboard-shortcut first-keystroke="meta s" />
   </action>
+  <action id="Scratch.ChangeLanguage">
+    <keyboard-shortcut first-keystroke="meta l" />
+  </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
