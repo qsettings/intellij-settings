@@ -83,6 +83,10 @@
     <keyboard-shortcut first-keystroke="ctrl b" />
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
+  <action id="CIDR.Lang.IntroduceVariable">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta v" />
+  </action>
   <action id="CPP.CreateCMakeProject">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
     <keyboard-shortcut first-keystroke="shift meta n" />
@@ -95,9 +99,7 @@
     <keyboard-shortcut first-keystroke="shift alt c" second-keystroke="shift alt c" />
   </action>
   <action id="ChangeSignature">
-    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="s" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl s" />
-    <keyboard-shortcut first-keystroke="meta r" second-keystroke="s" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta s" />
   </action>
   <action id="ChangesView.Browse">
@@ -315,10 +317,8 @@
   </action>
   <action id="ExternalJavaDoc" />
   <action id="ExtractMethod">
-    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="m" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl m" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta m" />
-    <keyboard-shortcut first-keystroke="meta r" second-keystroke="m" />
   </action>
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -411,17 +411,13 @@
   <action id="HelpTopics" />
   <action id="HideActiveWindow" />
   <action id="Inline">
-    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="i" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl i" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta i" />
-    <keyboard-shortcut first-keystroke="meta r" second-keystroke="i" />
   </action>
   <action id="IntroduceConstant" />
   <action id="IntroduceVariable">
-    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="v" />
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl v" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta v" />
-    <keyboard-shortcut first-keystroke="meta r" second-keystroke="v" />
   </action>
   <action id="JupyterDebugAction">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
@@ -723,5 +719,9 @@
     <keyboard-shortcut first-keystroke="shift alt f5" />
   </action>
   <action id="hg4idea.QFold" />
+  <action id="sql.ExtractFunctionAction">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl m" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta m" />
+  </action>
   <action id="tasks.switch" />
 </keymap>
