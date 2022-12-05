@@ -113,8 +113,6 @@
   <action id="ChangesView.Revert">
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt u" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="u" />
-    <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="u" />
-    <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt u" />
   </action>
   <action id="ChangesView.Shelve">
     <keyboard-shortcut first-keystroke="shift alt h" />
@@ -150,8 +148,6 @@
     <keyboard-shortcut first-keystroke="meta slash" />
   </action>
   <action id="Compare.Selected">
-    <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="c" />
-    <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt c" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="d" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt d" />
   </action>
@@ -164,6 +160,10 @@
   </action>
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
+  <action id="Console.TableResult.RevertSelected">
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt u" />
+    <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="u" />
+  </action>
   <action id="ContextHelp" />
   <action id="DatabaseView.DropAction">
     <keyboard-shortcut first-keystroke="delete" />
@@ -696,8 +696,6 @@
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt c" />
   </action>
   <action id="Vcs.ShowTabbedFileHistory">
-    <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="h" />
-    <keyboard-shortcut first-keystroke="shift alt z" second-keystroke="shift alt h" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="h" />
     <keyboard-shortcut first-keystroke="shift alt s" second-keystroke="shift alt h" />
   </action>
