@@ -6,18 +6,27 @@
     <option name="AUTOCOMPLETE_ON_CODE_COMPLETION" value="false" />
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
   </component>
+  <component name="CodeVisionSettings">
+    <option name="codeVisionGroupToPosition">
+      <map>
+        <entry key="vcs.code.vision" value="Default" />
+      </map>
+    </option>
+  </component>
   <component name="EditorSettings">
     <option name="STRIP_TRAILING_SPACES" value="None" />
-    <option name="ARE_LINE_NUMBERS_SHOWN" value="false" />
     <option name="IS_WHEEL_FONTCHANGE_PERSISTENT" value="true" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="" />
+    <option name="lastViewedProviderKeyId" value="Rust.rust.type.hints.closures" />
   </component>
   <component name="TodoConfiguration">
     <pattern case-sensitive="true" pattern="\bNotImplementedException\b" />
     <pattern icon="important" case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
     <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
-    <filter name="MYTASK" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;#q)(\W|$)(.*)" />
+    <filter name="Q">
+      <pattern index="3" />
+    </filter>
   </component>
 </application>
