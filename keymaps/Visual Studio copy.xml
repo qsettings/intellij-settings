@@ -443,7 +443,6 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="NewScratchFile">
-    <keyboard-shortcut first-keystroke="meta t" />
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="NextOccurence" />
@@ -599,6 +598,10 @@
   </action>
   <action id="Scratch.ChangeLanguage">
     <keyboard-shortcut first-keystroke="meta l" />
+  </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="meta t" />
   </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift alt l" />
