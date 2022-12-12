@@ -27,7 +27,7 @@
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;#q)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" />
     <filter name="Q">
-      <pattern index="3" />
+      <pattern index="-1" />
     </filter>
   </component>
 </application>
