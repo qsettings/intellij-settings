@@ -500,7 +500,7 @@
   </action>
   <action id="RecentLocations">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
-    <keyboard-shortcut first-keystroke="shift alt r" second-keystroke="shift alt l" />
+    <keyboard-shortcut first-keystroke="shift alt r" second-keystroke="shift alt r" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
