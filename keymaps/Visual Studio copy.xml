@@ -93,7 +93,6 @@
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta v" />
   </action>
   <action id="CPP.CreateCMakeProject">
-    <keyboard-shortcut first-keystroke="shift alt n" />
     <keyboard-shortcut first-keystroke="shift meta n" />
     <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
