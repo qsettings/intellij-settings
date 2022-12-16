@@ -94,6 +94,8 @@
   </action>
   <action id="CPP.CreateCMakeProject">
     <keyboard-shortcut first-keystroke="shift alt n" />
+    <keyboard-shortcut first-keystroke="shift meta n" />
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
   <action id="Cargo.RefreshCargoProject">
     <keyboard-shortcut first-keystroke="shift alt c" second-keystroke="shift alt r" />
@@ -443,8 +445,8 @@
   </action>
   <action id="NewScratchFile">
     <keyboard-shortcut first-keystroke="alt t" />
-    <keyboard-shortcut first-keystroke="shift meta n" />
-    <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="meta alt n" />
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
   <action id="NextOccurence" />
   <action id="NextProjectWindow" />
