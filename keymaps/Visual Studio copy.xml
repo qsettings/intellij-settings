@@ -308,12 +308,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl home" />
     <keyboard-shortcut first-keystroke="shift meta up" />
   </action>
-  <action id="EditorToggleCase">
-    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl up" />
-    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl down" />
-    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta down" />
-    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta up" />
-  </action>
+  <action id="EditorToggleCase" />
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="w" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl w" />
@@ -635,6 +630,8 @@
     <keyboard-shortcut first-keystroke="alt k" />
     <keyboard-shortcut first-keystroke="alt comma" />
   </action>
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="TabShiftActions.ShiftLeft">
     <keyboard-shortcut first-keystroke="shift alt open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
@@ -721,6 +718,14 @@
     <keyboard-shortcut first-keystroke="shift alt f5" />
   </action>
   <action id="hg4idea.QFold" />
+  <action id="osmedile.intellij.stringmanip.ToLowerCaseAction">
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta down" />
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl down" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.ToUpperCaseAction">
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta up" />
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl up" />
+  </action>
   <action id="sql.ExtractFunctionAction">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl m" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta m" />
