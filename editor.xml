@@ -5,9 +5,13 @@
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
     <pattern pattern="\bNotImplementedException\b" />
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;#q)(\W|$)(.*)" />
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;#q)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" />
+    <filter name="#q">
+      <pattern index="1" />
+    </filter>
   </component>
 </application>
