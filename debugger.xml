@@ -104,6 +104,12 @@
           <custom-object-presentation />
         </configuration>
       </debugger>
+      <debugger id="ObjectiveC">
+        <configuration>
+          <nt-symbol-settings />
+          <option name="SHOW_FRAME_MODULE_NAME" value="true" />
+        </configuration>
+      </debugger>
     </debuggers>
   </component>
 </application>
