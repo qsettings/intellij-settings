@@ -1,30 +1,17 @@
 <application>
   <component name="CodeInsightSettings">
     <option name="completionCaseSensitive" value="2" />
-    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
-    <option name="AUTOCOMPLETE_ON_CODE_COMPLETION" value="false" />
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
-    <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
-  </component>
-  <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="" />
-    <option name="STRIP_TRAILING_SPACES" value="None" />
-  </component>
-  <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="rust.type.hints" />
   </component>
   <component name="TodoConfiguration">
-    <pattern case-sensitive="true" pattern="\bNotImplementedException\b" />
-    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" />
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;8362)(\W|$)(.*)" />
-    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
-    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
-    <filter name="TODO">
-      <pattern index="4" />
-      <pattern index="0" />
-      <pattern index="3" />
+    <pattern pattern="\bNotImplementedException\b" />
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;#q)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" />
+    <filter name="#q">
+      <pattern index="1" />
     </filter>
-    <filter name="8362" />
   </component>
 </application>

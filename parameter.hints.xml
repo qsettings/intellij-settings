@@ -1,0 +1,10 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Rust">
+        <added pattern="diesel::query_dsl::filter(self,predicate)" />
+      </blacklist>
+    </blacklists>
+    <option id="sql.show.column.names.in.select" value="true" />
+  </component>
+</application>
