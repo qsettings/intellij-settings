@@ -1,5 +1,5 @@
 <application>
   <component name="OverrideFileTypeManager">
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" value="JSON" />
+    <file url="file://$USER_HOME$/source/rust/advent-2022-rs/target/debug/day_3" value="Assembly file" />
   </component>
 </application>

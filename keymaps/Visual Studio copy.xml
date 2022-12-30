@@ -93,8 +93,8 @@
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta v" />
   </action>
   <action id="CPP.CreateCMakeProject">
-    <keyboard-shortcut first-keystroke="shift ctrl n" />
     <keyboard-shortcut first-keystroke="shift meta n" />
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
   <action id="Cargo.RefreshCargoProject">
     <keyboard-shortcut first-keystroke="shift alt c" second-keystroke="shift alt r" />
@@ -174,6 +174,10 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
+  <action id="DatabaseView.MoveToGroup">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl o" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta o" />
+  </action>
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl d" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="d" />
@@ -234,6 +238,10 @@
   <action id="EditorCodeBlockEndWithSelection" />
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
     <mouse-shortcut keystroke="alt button1" />
     <mouse-shortcut keystroke="button2" />
@@ -311,8 +319,8 @@
   <action id="EditorToggleCase">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl up" />
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl down" />
-    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta down" />
     <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta up" />
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta down" />
   </action>
   <action id="EditorToggleUseSoftWraps">
     <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="w" />
@@ -436,15 +444,24 @@
     <keyboard-shortcut first-keystroke="alt up" />
     <mouse-shortcut keystroke="alt button5" />
   </action>
+  <action id="Move">
+    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl o" />
+    <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta o" />
+  </action>
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl n" />
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="shift alt a" second-keystroke="shift alt a" />
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
+  <action id="NewRiderProject">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
   <action id="NewScratchFile">
-    <keyboard-shortcut first-keystroke="meta t" />
     <keyboard-shortcut first-keystroke="alt t" />
+    <keyboard-shortcut first-keystroke="meta alt n" />
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
   <action id="NextOccurence" />
   <action id="NextProjectWindow" />
@@ -500,7 +517,7 @@
   </action>
   <action id="RecentLocations">
     <keyboard-shortcut first-keystroke="shift ctrl e" />
-    <keyboard-shortcut first-keystroke="shift alt r" second-keystroke="shift alt l" />
+    <keyboard-shortcut first-keystroke="shift alt r" second-keystroke="shift alt r" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
@@ -536,9 +553,6 @@
   </action>
   <action id="RiderManageRecentProjects">
     <keyboard-shortcut first-keystroke="shift meta o" />
-  </action>
-  <action id="RiderNewSolution">
-    <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
   <action id="RiderOnlineHelpAction" />
   <action id="RiderUnitTestDebugContextAction">
@@ -600,6 +614,10 @@
   <action id="Scratch.ChangeLanguage">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+    <keyboard-shortcut first-keystroke="meta t" />
+  </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
@@ -629,6 +647,8 @@
     <keyboard-shortcut first-keystroke="alt k" />
     <keyboard-shortcut first-keystroke="alt comma" />
   </action>
+  <action id="SwitcherIterateItems" />
+  <action id="SwitcherRecentEditedChangedToggleCheckBox" />
   <action id="TabShiftActions.ShiftLeft">
     <keyboard-shortcut first-keystroke="shift alt open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl open_bracket" />
@@ -673,6 +693,10 @@
     <keyboard-shortcut first-keystroke="ctrl f9" />
     <keyboard-shortcut first-keystroke="meta f9" />
   </action>
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl meta f" />
+  </action>
   <action id="ToggleInlayHintsGloballyAction">
     <keyboard-shortcut first-keystroke="meta alt i" />
     <keyboard-shortcut first-keystroke="ctrl alt i" />
@@ -715,6 +739,14 @@
     <keyboard-shortcut first-keystroke="shift alt f5" />
   </action>
   <action id="hg4idea.QFold" />
+  <action id="osmedile.intellij.stringmanip.ToLowerCaseAction">
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta down" />
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl down" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.ToUpperCaseAction">
+    <keyboard-shortcut first-keystroke="meta e" second-keystroke="meta up" />
+    <keyboard-shortcut first-keystroke="ctrl e" second-keystroke="ctrl up" />
+  </action>
   <action id="sql.ExtractFunctionAction">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl m" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta m" />

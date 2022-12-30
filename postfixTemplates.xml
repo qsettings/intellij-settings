@@ -1,0 +1,10 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="ifls@userDefined" key=".ifls" provider="org.rust.ide.template.postfix.RsPostfixTemplateProvider" topmost="false">
+      <conditions>
+        <condition id="UserEntered" Aetna="Option" />
+      </conditions>
+      <template name="fakeKey" value="if let Some(_) = $EXPR$ {}" toReformat="false" toShortenFQNames="true" />
+    </template>
+  </component>
+</application>
