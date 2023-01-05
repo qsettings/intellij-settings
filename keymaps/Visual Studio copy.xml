@@ -178,6 +178,10 @@
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta o" />
   </action>
+  <action id="DatabaseView.PropertiesAction">
+    <keyboard-shortcut first-keystroke="alt enter" />
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="ctrl d" />
     <keyboard-shortcut first-keystroke="ctrl u" second-keystroke="d" />
