@@ -5,12 +5,18 @@
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="\bNotImplementedException\b" />
+    <pattern case-sensitive="true" pattern="\bNotImplementedException\b" />
     <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;#q)(\W|$)(.*)" />
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
-    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" />
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" />
     <filter name="#q">
+      <pattern index="1" />
+    </filter>
+    <filter name="TODO">
+      <pattern index="3" />
+      <pattern index="0" />
+      <pattern index="2" />
       <pattern index="1" />
     </filter>
   </component>
