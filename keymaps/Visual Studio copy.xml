@@ -356,13 +356,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl f" />
     <keyboard-shortcut first-keystroke="shift meta f" />
   </action>
-  <action id="FindNext">
-    <keyboard-shortcut first-keystroke="f3" />
-    <keyboard-shortcut first-keystroke="shift ctrl down" />
-    <keyboard-shortcut first-keystroke="ctrl alt page_down" />
-    <keyboard-shortcut first-keystroke="shift alt slash" />
-    <keyboard-shortcut first-keystroke="meta g" />
-  </action>
   <action id="ForceRunToCursor">
     <keyboard-shortcut first-keystroke="ctrl alt f9" />
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
@@ -420,6 +413,10 @@
     <mouse-shortcut keystroke="meta alt button1" />
     <mouse-shortcut keystroke="control alt button1" />
     <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="alt home" />
