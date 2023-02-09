@@ -13,14 +13,6 @@
         </ServerContextState>
         <ServerContextState>
           <option name="type" value="VSO" />
-          <option name="uri" value="https://dev.azure.com/vyrty" />
-          <option name="serverUri" value="https://dev.azure.com/vyrty" />
-          <option name="userId" value="dfa3d5e0-797a-62ff-a51a-0a44fda26cae" />
-          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:null,&quot;name&quot;:null,&quot;url&quot;:null}" />
-          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:null,&quot;name&quot;:null,&quot;revision&quot;:0,&quot;state&quot;:null,&quot;url&quot;:null}" />
-        </ServerContextState>
-        <ServerContextState>
-          <option name="type" value="VSO" />
           <option name="uri" value="https://vyrty.visualstudio.com/SYNC.ID/_git/SYNC.ID" />
           <option name="serverUri" value="https://vyrty.visualstudio.com" />
           <option name="userId" value="dfa3d5e0-797a-62ff-a51a-0a44fda26cae" />
@@ -47,10 +39,6 @@
         <PropertyState>
           <option name="name" value="reactiveClientMemory" />
           <option name="value" value="2048" />
-        </PropertyState>
-        <PropertyState>
-          <option name="name" value="lastContextKey" />
-          <option name="value" value="//vyrty@dev.azure.com/vyrty/c3r/_git/vyrty-common" />
         </PropertyState>
       </array>
     </option>
