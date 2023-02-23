@@ -1,0 +1,5 @@
+<application>
+  <component name="RiderDockerSettings">
+    <option name="debugImages" value="true" />
+  </component>
+</application>
