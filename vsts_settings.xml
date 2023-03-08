@@ -1,0 +1,66 @@
+<application>
+  <component name="VSTSSettings">
+    <option name="serverContexts">
+      <array>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://vyrty@dev.azure.com/vyrty/C3R/_git/vyrty-common" />
+          <option name="serverUri" value="https://dev.azure.com/vyrty" />
+          <option name="userId" value="dfa3d5e0-797a-62ff-a51a-0a44fda26cae" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;d9daf316-916e-4a11-815e-d1555b62d73d&quot;,&quot;name&quot;:&quot;vyrty&quot;,&quot;url&quot;:&quot;https://dev.azure.com/vyrty/_apis/projectCollections/d9daf316-916e-4a11-815e-d1555b62d73d&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;SyncMD Development&quot;,&quot;id&quot;:&quot;5133e13f-385f-464a-a53f-4f03625aa1d3&quot;,&quot;name&quot;:&quot;C3R&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/vyrty/_apis/projects/5133e13f-385f-464a-a53f-4f03625aa1d3&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;24b07942-660a-4c33-9446-dd3782dd1d86&quot;,&quot;name&quot;:&quot;vyrty-common&quot;,&quot;remoteUrl&quot;:&quot;https://vyrty@dev.azure.com/vyrty/C3R/_git/vyrty-common&quot;,&quot;url&quot;:&quot;https://dev.azure.com/vyrty/_apis/git/repositories/24b07942-660a-4c33-9446-dd3782dd1d86&quot;,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:&quot;SyncMD Development&quot;,&quot;id&quot;:&quot;5133e13f-385f-464a-a53f-4f03625aa1d3&quot;,&quot;name&quot;:&quot;C3R&quot;,&quot;revision&quot;:80,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://dev.azure.com/vyrty/_apis/projects/5133e13f-385f-464a-a53f-4f03625aa1d3&quot;},&quot;_links&quot;:null}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://vyrty.visualstudio.com" />
+          <option name="serverUri" value="https://vyrty.visualstudio.com" />
+          <option name="userId" value="dfa3d5e0-797a-62ff-a51a-0a44fda26cae" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:null,&quot;name&quot;:null,&quot;url&quot;:null}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:null,&quot;name&quot;:null,&quot;revision&quot;:0,&quot;state&quot;:null,&quot;url&quot;:null}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://dev.azure.com/vyrty" />
+          <option name="serverUri" value="https://dev.azure.com/vyrty" />
+          <option name="userId" value="dfa3d5e0-797a-62ff-a51a-0a44fda26cae" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:null,&quot;name&quot;:null,&quot;url&quot;:null}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:null,&quot;name&quot;:null,&quot;revision&quot;:0,&quot;state&quot;:null,&quot;url&quot;:null}" />
+        </ServerContextState>
+        <ServerContextState>
+          <option name="type" value="VSO" />
+          <option name="uri" value="https://vyrty.visualstudio.com/SYNC.ID/_git/SYNC.ID" />
+          <option name="serverUri" value="https://vyrty.visualstudio.com" />
+          <option name="userId" value="dfa3d5e0-797a-62ff-a51a-0a44fda26cae" />
+          <option name="teamProjectCollectionReference" value="{&quot;id&quot;:&quot;d9daf316-916e-4a11-815e-d1555b62d73d&quot;,&quot;name&quot;:&quot;vyrty&quot;,&quot;url&quot;:&quot;https://vyrty.visualstudio.com/_apis/projectCollections/d9daf316-916e-4a11-815e-d1555b62d73d&quot;}" />
+          <option name="teamProjectReference" value="{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;89b3e665-f377-4346-a8bb-8069f5ca6844&quot;,&quot;name&quot;:&quot;SYNC.ID&quot;,&quot;revision&quot;:79,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://vyrty.visualstudio.com/_apis/projects/89b3e665-f377-4346-a8bb-8069f5ca6844&quot;}" />
+          <option name="gitRepository" value="{&quot;defaultBranch&quot;:null,&quot;id&quot;:&quot;64064b0e-4210-435a-a772-695f952f5f72&quot;,&quot;name&quot;:&quot;SYNC.ID&quot;,&quot;remoteUrl&quot;:&quot;https://vyrty.visualstudio.com/SYNC.ID/_git/SYNC.ID&quot;,&quot;url&quot;:&quot;https://vyrty.visualstudio.com/_apis/git/repositories/64064b0e-4210-435a-a772-695f952f5f72&quot;,&quot;project&quot;:{&quot;abbreviation&quot;:null,&quot;description&quot;:null,&quot;id&quot;:&quot;89b3e665-f377-4346-a8bb-8069f5ca6844&quot;,&quot;name&quot;:&quot;SYNC.ID&quot;,&quot;revision&quot;:79,&quot;state&quot;:&quot;NEW&quot;,&quot;url&quot;:&quot;https://vyrty.visualstudio.com/_apis/projects/89b3e665-f377-4346-a8bb-8069f5ca6844&quot;},&quot;_links&quot;:null}" />
+        </ServerContextState>
+      </array>
+    </option>
+    <option name="properties">
+      <array>
+        <PropertyState>
+          <option name="name" value="tfHome" />
+          <option name="value" value="" />
+        </PropertyState>
+        <PropertyState>
+          <option name="name" value="visualStudioTfClientPath" />
+          <option name="value" value="" />
+        </PropertyState>
+        <PropertyState>
+          <option name="name" value="tfvcUseReactiveClientV2" />
+          <option name="value" value="true" />
+        </PropertyState>
+        <PropertyState>
+          <option name="name" value="reactiveClientMemory" />
+          <option name="value" value="2048" />
+        </PropertyState>
+        <PropertyState>
+          <option name="name" value="lastContextKey" />
+          <option name="value" value="//vyrty.visualstudio.com/sync.id/_git/sync.id" />
+        </PropertyState>
+      </array>
+    </option>
+  </component>
+</application>
