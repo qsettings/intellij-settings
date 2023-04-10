@@ -4,6 +4,9 @@
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
     <option name="INSERT_BRACE_ON_ENTER" value="false" />
   </component>
+  <component name="EditorSettings">
+    <option name="ENABLE_RENDERED_DOC" value="true" />
+  </component>
   <component name="TodoConfiguration">
     <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
     <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
