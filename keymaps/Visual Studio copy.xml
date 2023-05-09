@@ -479,7 +479,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt n" />
   </action>
   <action id="NextOccurence" />
-  <action id="NextProjectWindow" />
+  <action id="NextProjectWindow">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="meta alt right" />
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
