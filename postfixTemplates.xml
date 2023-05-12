@@ -1,10 +1,10 @@
 <application>
   <component name="PostfixTemplates">
-    <template id="ifls@userDefined" key=".ifls" provider="org.rust.ide.template.postfix.RsPostfixTemplateProvider" topmost="false">
+    <template id="ifls@userDefined" key=".ifls" provider="org.rust.ide.template.postfix.RsPostfixTemplateProvider" topmost="true">
       <conditions>
         <condition id="UserEntered" Aetna="Option" />
       </conditions>
-      <template name="fakeKey" value="if let Some(_) = $EXPR$ {}" toReformat="false" toShortenFQNames="true" />
+      <template name="fakeKey" value="if let Some() = $EXPR$ {&#10;    &#10;}" toReformat="false" toShortenFQNames="true" />
     </template>
   </component>
 </application>
