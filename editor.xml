@@ -12,34 +12,15 @@
         <entry key="vcs.code.vision" value="Default" />
       </map>
     </option>
-    <option name="disabledCodeVisionProviderIds">
-      <set>
-        <option value="inheritors" />
-        <option value="references" />
-        <option value="vcs.code.vision" />
-      </set>
-    </option>
   </component>
   <component name="DeclarativeInlayHintsSettings">
-    <option name="disabledOptions">
-      <set>
-        <option value="js.type.hints#function.returns" />
-        <option value="js.type.hints#non.paren.single.param" />
-        <option value="js.type.hints#parameters.in.parens" />
-        <option value="js.type.hints#variables.and.fields" />
-        <option value="ts.type.hints#function.returns" />
-        <option value="ts.type.hints#non.paren.single.param" />
-        <option value="ts.type.hints#parameters.in.parens" />
-        <option value="ts.type.hints#variables.and.fields" />
-      </set>
-    </option>
     <option name="providerIdToEnabled">
       <map>
-        <entry key="js.chain.hints" value="false" />
-        <entry key="js.type.hints" value="false" />
-        <entry key="ts.chain.hints" value="false" />
-        <entry key="ts.enum.hints" value="false" />
-        <entry key="ts.type.hints" value="false" />
+        <entry key="js.chain.hints" value="true" />
+        <entry key="js.type.hints" value="true" />
+        <entry key="ts.chain.hints" value="true" />
+        <entry key="ts.enum.hints" value="true" />
+        <entry key="ts.type.hints" value="true" />
       </map>
     </option>
   </component>
@@ -47,48 +28,31 @@
     <option name="ENABLE_RENDERED_DOC" value="true" />
   </component>
   <component name="InlayHintsSettings">
-    <option name="disabledHintProviderIds">
-      <set>
-        <option value="Dockerfile.docker.inlay.hints" />
-        <option value="LALRPOP.lalrpop.type.hints" />
-        <option value="Markdown.MarkdownTableInlayProviderSettingsKey" />
-        <option value="ObjectiveC.oc.type.hints" />
-        <option value="Rust.chain-method.hints" />
-        <option value="Rust.rust.type.hints" />
-        <option value="SQL.sql.join.cardinality.hints" />
-      </set>
-    </option>
-    <option name="lastViewedProviderKeyId" value="Rust.parameter.hints.old.SMART_HINTS" />
+    <option name="lastViewedProviderKeyId" value="" />
     <settingsMapElement>
       <ObjectiveC.oc.type.hints>
         <ClionClangTypeHintSettings>
-          <option name="showDeducedParameterTypes" value="false" />
-          <option name="showDeducedReturnTypes" value="false" />
-          <option name="showForLambdas" value="false" />
-          <option name="showForVariables" value="false" />
+          <option name="showObviousTypes" value="true" />
         </ClionClangTypeHintSettings>
       </ObjectiveC.oc.type.hints>
       <Rust.rust.type.hints>
         <Settings>
-          <option name="showForIterators" value="false" />
-          <option name="showForLambdas" value="false" />
-          <option name="showForPlaceholders" value="false" />
-          <option name="showForVariables" value="false" />
+          <option name="showObviousTypes" value="true" />
         </Settings>
       </Rust.rust.type.hints>
-      <Rust.chain-method.hints>
-        <Settings>
-          <option name="iteratorSpecialCase" value="false" />
-          <option name="showSameConsecutiveTypes" value="false" />
-        </Settings>
-      </Rust.chain-method.hints>
       <LALRPOP.lalrpop.type.hints>
         <Settings>
-          <option name="alternativeActionSymbols" value="false" />
-          <option name="ignoreUnselectedSymbols" value="false" />
-          <option name="showForNonterminals" value="false" />
+          <option name="showForSymbols" value="true" />
         </Settings>
       </LALRPOP.lalrpop.type.hints>
+      <SQL.sql.join.cardinality.hints>
+        <Settings>
+          <option name="showForFullJoin" value="true" />
+          <option name="showForInnerJoin" value="true" />
+          <option name="showForLeftJoin" value="true" />
+          <option name="showForRightJoin" value="true" />
+        </Settings>
+      </SQL.sql.join.cardinality.hints>
     </settingsMapElement>
   </component>
   <component name="JSEditorOptions">
