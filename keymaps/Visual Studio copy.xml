@@ -200,6 +200,7 @@
   <action id="EditBookmark">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
+  <action id="EditSourceInNewWindow" />
   <action id="Editor Copy">
     <keyboard-shortcut first-keystroke="meta c" />
     <keyboard-shortcut first-keystroke="ctrl c" />
@@ -450,6 +451,12 @@
   <action id="JupyterDebugAction">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
     <keyboard-shortcut first-keystroke="shift meta enter" />
+  </action>
+  <action id="Markdown.Layout.EditorOnly">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="Markdown.Layout.PreviewOnly">
+    <keyboard-shortcut first-keystroke="shift f4" />
   </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="alt down" />
