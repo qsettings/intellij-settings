@@ -5,7 +5,6 @@
     <preferred-dark-laf themeId="RiderNight" />
     <lafs-to-previous-schemes>
       <laf-to-scheme laf="Dark" scheme="_@user_Default" />
-      <laf-to-scheme laf="RiderNight" scheme="_@user_Default" />
     </lafs-to-previous-schemes>
   </component>
 </application>
