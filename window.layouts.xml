@@ -1,0 +1,241 @@
+<application>
+  <component name="ToolWindowLayout"><![CDATA[{
+  "layouts": {
+    "Custom": {
+      "v1": [
+        {
+          "id": "Project",
+          "order": 0,
+          "contentUiType": "COMBO",
+          "isVisible": true,
+          "weight": 0.16631944,
+          "sideWeight": 0.5006024
+        },
+        {
+          "id": "Favorites",
+          "order": 1,
+          "isSplit": true
+        },
+        {
+          "id": "Commit",
+          "order": 2
+        },
+        {
+          "id": "Pull Requests",
+          "order": 3
+        },
+        {
+          "id": "Structure",
+          "order": 4,
+          "weight": 0.15590277,
+          "sideWeight": 0.49939758
+        },
+        {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Event Log",
+          "order": 1,
+          "anchor": "BOTTOM",
+          "isSplit": true
+        },
+        {
+          "id": "Find",
+          "order": 2,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Run",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "weight": 0.33055556
+        },
+        {
+          "id": "Debug",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "weight": 0.4
+        },
+        {
+          "id": "TODO",
+          "order": 5,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Problems View",
+          "order": 6,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Internal Method Tracing",
+          "order": 7,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Inspection",
+          "order": 8,
+          "anchor": "BOTTOM",
+          "weight": 0.4
+        },
+        {
+          "id": "File Transfer",
+          "order": 9,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Terminal",
+          "order": 10,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "clangd",
+          "order": 11,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Database Changes",
+          "order": 12,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "TypeScript",
+          "order": 13,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Build",
+          "order": 14,
+          "anchor": "BOTTOM",
+          "weight": 0.33055556
+        },
+        {
+          "id": "Python Packages",
+          "order": 15,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Messages",
+          "order": 16,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Flow",
+          "order": 17,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Services",
+          "order": 18,
+          "anchor": "BOTTOM",
+          "isShowStripeButton": false
+        },
+        {
+          "id": "Cargo",
+          "order": 0,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Database",
+          "order": 1,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "make",
+          "order": 2,
+          "anchor": "RIGHT",
+          "isShowStripeButton": false,
+          "isSplit": true
+        }
+      ],
+      "v2": [
+        {
+          "id": "Project",
+          "order": 0,
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "Commit",
+          "order": 1,
+          "weight": 0.25
+        },
+        {
+          "id": "Structure",
+          "order": 2,
+          "weight": 0.25,
+          "isSplit": true
+        },
+        {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Problems",
+          "order": 1,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Problems View",
+          "order": 2,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Terminal",
+          "order": 3,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Services",
+          "order": 4,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "CMake",
+          "order": 5,
+          "anchor": "BOTTOM"
+        },
+        {
+          "id": "Notifications",
+          "order": 0,
+          "anchor": "RIGHT",
+          "contentUiType": "COMBO",
+          "weight": 0.25
+        },
+        {
+          "id": "AIAssistant",
+          "order": 1,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Database",
+          "order": 2,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Gradle",
+          "order": 3,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Maven",
+          "order": 4,
+          "anchor": "RIGHT",
+          "weight": 0.25
+        },
+        {
+          "id": "Meson",
+          "order": 5,
+          "anchor": "RIGHT"
+        }
+      ]
+    }
+  }
+}]]></component>
+</application>

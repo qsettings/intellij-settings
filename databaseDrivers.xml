@@ -26,5 +26,14 @@
     <driver id="java.sql.Driver" name="User Driver" driver-class="java.sql.Driver" />
     <driver id="d52ec96e-8d0c-4c91-8963-ee8b353c9094" name="User Driver [2]" driver-class="java.sql.Driver" />
     <driver id="cfc8de7c-2aee-4e60-8d5b-33f1d8193c38" name="User Driver [3]" driver-class="java.sql.Driver" />
+    <driver id="d4f0cf5b-ab54-4e28-83ac-786c3c1c7420" name="tradesv3 driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
+      <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
+      <url-template name="In-memory" template="jdbc:sqlite::memory:" />
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.40.1" />
+      <property name="enable_load_extension" value="true" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.34.0/sqlite-jdbc-3.34.0.jar</url>
+      </library>
+    </driver>
   </component>
 </application>
