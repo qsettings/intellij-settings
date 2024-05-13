@@ -1,6 +1,0 @@
-<application>
-  <component name="OverrideFileTypeManager">
-    <file url="file://$USER_HOME$/.kube/config" value="YAML" />
-    <file url="file://$USER_HOME$/source/trading/trade_lab/market_data/XBT_OHLCVT/XBTUSD_1.csv" value="CSV/TSV" />
-  </component>
-</application>
