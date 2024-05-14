@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="cookie" type="AUTO_DETECTED" />
       <mapping pattern="env" type="AUTO_DETECTED" />
+      <mapping pattern="deployment_tx_data" type="AUTO_DETECTED" />
       <mapping ext="gz" type="JSON" />
       <mapping ext="img" type="Native" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
