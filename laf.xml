@@ -8,7 +8,6 @@
       <laf-to-scheme laf="Rider Dark" scheme="_@user_Darcula" />
       <laf-to-scheme laf="Rider Day" scheme="_@user_Rider Light" />
       <laf-to-scheme laf="Rider Melon Night" scheme="_@user_Darcula" />
-      <laf-to-scheme laf="RiderNight" scheme="_@user_Default" />
       <laf-to-scheme laf="Visual Assist Day" scheme="_@user_Default" />
     </lafs-to-previous-schemes>
   </component>
