@@ -100,6 +100,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl b" />
     <keyboard-shortcut first-keystroke="shift alt c" second-keystroke="shift alt c" />
   </action>
+  <action id="Cargo.RustfmtCargoProject">
+    <keyboard-shortcut first-keystroke="shift ctrl meta alt enter" />
+  </action>
   <action id="ChangeSignature">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl s" />
     <keyboard-shortcut first-keystroke="meta r" second-keystroke="meta s" />
