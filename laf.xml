@@ -1,5 +1,5 @@
 <application>
-  <component name="LafManager">
+  <component name="LafManager" autodetect="true">
     <laf themeId="RiderNight" />
     <preferred-light-laf themeId="RiderDay" />
     <preferred-dark-laf themeId="RiderNight" />
