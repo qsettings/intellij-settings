@@ -1,0 +1,9 @@
+<application>
+  <component name="CodeGPT_CodeGPTServiceSettings_280">
+    <option name="chatCompletionSettings">
+      <CodeGPTServiceChatCompletionSettingsState>
+        <option name="model" value="gpt-4o" />
+      </CodeGPTServiceChatCompletionSettingsState>
+    </option>
+  </component>
+</application>
