@@ -8,6 +8,7 @@
       <mapping ext="gz" type="JSON" />
       <mapping ext="img" type="Native" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <removed_mapping ext="adoc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="gz" approved="true" type="GZIP" />
       <removed_mapping ext="inputactions" approved="true" type="JSON" />
