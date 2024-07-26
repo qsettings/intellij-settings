@@ -69,8 +69,10 @@
     <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO#q)(\W|$)(.*)" />
     <pattern case-sensitive="true" pattern="\bNotImplementedException\b" />
     <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE)(\W|$)(.*)" />
+    <pattern case-sensitive="true" pattern="(?&lt;=\W|^)(?&lt;TAG&gt;NOTE#q)(\W|$)(.*)" />
     <filter name="#q">
       <pattern index="2" />
+      <pattern index="5" />
     </filter>
     <filter name="TODO">
       <pattern index="0" />
