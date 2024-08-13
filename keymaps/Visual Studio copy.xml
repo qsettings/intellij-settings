@@ -511,6 +511,10 @@
     <keyboard-shortcut first-keystroke="ctrl o" />
     <keyboard-shortcut first-keystroke="meta o" />
   </action>
+  <action id="OptimizeImports">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
+    <keyboard-shortcut first-keystroke="meta alt o" />
+  </action>
   <action id="OverrideFileTypeAction">
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
