@@ -1,0 +1,6 @@
+<application>
+  <component name="ee.carlrobert.codegpt.state.conversations.ConversationsState">
+    <option name="conversationsContainer" value="{&quot;conversationsMapping&quot;:{&quot;chat.completion&quot;:[{&quot;id&quot;:&quot;81058dec-0cee-4c9d-97e0-0f2398aada72&quot;,&quot;messages&quot;:[],&quot;clientCode&quot;:&quot;chat.completion&quot;,&quot;model&quot;:&quot;gpt-4o&quot;,&quot;createdOn&quot;:[2024,7,21,20,53,6,290839000],&quot;updatedOn&quot;:[2024,7,21,20,53,6,290862000],&quot;discardTokenLimit&quot;:false}]}}" />
+    <option name="currentConversation" value="{&quot;id&quot;:&quot;81058dec-0cee-4c9d-97e0-0f2398aada72&quot;,&quot;messages&quot;:[],&quot;clientCode&quot;:&quot;chat.completion&quot;,&quot;model&quot;:&quot;gpt-4o&quot;,&quot;createdOn&quot;:[2024,7,21,20,53,6,290839000],&quot;updatedOn&quot;:[2024,7,21,20,53,6,290862000],&quot;discardTokenLimit&quot;:false}" />
+  </component>
+</application>
