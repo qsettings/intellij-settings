@@ -1,0 +1,170 @@
+<scheme name="_@user_Rider Dark" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
+  <metaInfo>
+    <property name="created">2022-12-05T11:12:45</property>
+    <property name="ide">CLion</property>
+    <property name="ideVersion">2022.2.4.0.0</property>
+    <property name="modified">2024-08-16T23:20:17</property>
+    <property name="originalScheme">Rider Dark</property>
+    <property name="partialSave">true</property>
+  </metaInfo>
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="10" />
+  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
+  <colors>
+    <option name="ADDED_LINES_COLOR" value="29421f" />
+    <option name="ScrollBar.Mac.Transparent.hoverTrackColor" value="838380" />
+    <option name="ScrollBar.Mac.Transparent.trackColor" value="838380" />
+    <option name="ScrollBar.Transparent.hoverTrackColor" value="838380" />
+    <option name="ScrollBar.Transparent.trackColor" value="838380" />
+  </colors>
+  <attributes>
+    <option name="CONSOLE_BLACK_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="bdbdbd" />
+      </value>
+    </option>
+    <option name="CONSOLE_CYAN_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="CONSOLE_GRAY_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="787878" />
+      </value>
+    </option>
+    <option name="CONSOLE_WHITE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="686868" />
+      </value>
+    </option>
+    <option name="CSS.FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="DEFAULT_INSTANCE_METHOD">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="DEFAULT_STATIC_METHOD">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="JS.FUNCTION_ARROW">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="JS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="JS.INSTANCE_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="JS.STATIC_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="LESS_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="NOT_TOP_FRAME_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="133f2f" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="ReSharper.ASP_NET_RUN_AT_ATTRIBUTE">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="ReSharper.CPP_OVERLOADED_OPERATOR_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="ReSharper.EXTENSION_METHOD_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="ReSharper.JS_FUNCTION_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="ReSharper.MATCHED_FORMAT_STRING_ITEM">
+      <value>
+        <option name="BACKGROUND" value="472b63" />
+      </value>
+    </option>
+    <option name="ReSharper.ST_METHOD">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="SASS_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="SEARCH_RESULT_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="133f2f" />
+        <option name="ERROR_STRIPE_COLOR" value="18704b" />
+      </value>
+    </option>
+    <option name="SQL_PROCEDURE">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="TS.FUNCTION_ARROW">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="TS.GLOBAL_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="TS.INSTANCE_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+    <option name="TS.STATIC_MEMBER_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="39cc8f" />
+      </value>
+    </option>
+  </attributes>
+</scheme>

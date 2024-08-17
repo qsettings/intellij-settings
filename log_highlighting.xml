@@ -1,0 +1,10 @@
+<application>
+  <component name="LogHighlightingSettings">
+    <highlightingPatterns>
+      <LogHighlightingPattern pattern="^\s*e(rror)?\s*$" action="HIGHLIGHT_LINE" fg="-65536" bold="true" stripe="true" uuid="f2080ffb-b6dd-4c70-9132-54786bdbd070" />
+      <LogHighlightingPattern pattern="^\s*w(arn(ing)?)?\s*$" action="HIGHLIGHT_LINE" fg="-22016" bold="true" uuid="11ff1574-2118-4722-905a-61bec89b079e" />
+      <LogHighlightingPattern pattern="^\s*i(nfo)?\s*$" action="HIGHLIGHT_LINE" fg="-12599489" uuid="5e882ebc-2179-488b-8e1a-2fe488636f36" />
+      <LogHighlightingPattern pattern="^\s*c(ompiling)?\s*$" fg="-15925437" stripe="true" uuid="59166a0f-7a4c-40f2-a5cb-797d0dae89ac" />
+    </highlightingPatterns>
+  </component>
+</application>

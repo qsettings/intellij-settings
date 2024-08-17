@@ -1,0 +1,5 @@
+<application>
+  <component name="Pandoc.Application.Settings">
+    <option name="myPathToImages" value="$USER_HOME$/source/repos/rust/rust_lab/import-resources" />
+  </component>
+</application>
