@@ -1,13 +1,12 @@
 <application>
   <component name="LafManager">
+    <laf themeId="0f04721d-319a-4046-acf8-64d81069d3f5" />
     <preferred-light-laf themeId="RiderDay" />
     <preferred-dark-laf themeId="RiderNight" />
+    <preferred-dark-editor-scheme editorSchemeId="Rider Dark" />
     <lafs-to-previous-schemes>
-      <laf-to-scheme laf="ExperimentalDark" scheme="_@user_Default" />
       <laf-to-scheme laf="Rider Day" scheme="_@user_Rider Light" />
       <laf-to-scheme laf="Rider Melon Night" scheme="_@user_Darcula" />
-      <laf-to-scheme laf="RiderDark" scheme="_@user_Darcula" />
-      <laf-to-scheme laf="RiderNight" scheme="_@user_Default" />
       <laf-to-scheme laf="Visual Assist Day" scheme="_@user_Default" />
     </lafs-to-previous-schemes>
   </component>
