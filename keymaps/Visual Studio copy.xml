@@ -431,9 +431,8 @@
     <mouse-shortcut keystroke="control alt button1" />
     <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
-  <action id="GotoLine">
+  <action id="GotoRow">
     <keyboard-shortcut first-keystroke="ctrl g" />
-    <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="GotoSuperMethod">
     <keyboard-shortcut first-keystroke="alt home" />
